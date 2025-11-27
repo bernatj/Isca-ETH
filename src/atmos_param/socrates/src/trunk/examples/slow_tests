@@ -1,0 +1,43 @@
+#!/bin/bash
+
+if [ $RAD_BIN ] ; then
+  echo "Testing code compiled in "$RAD_BIN
+else
+  echo "Path to code not set."
+  exit 1
+fi
+
+err=0
+
+echo ---
+echo "Testing prep_spec for generating solar variability data:"
+cd spectral_var
+./run_me || err=1
+cd ../
+
+echo ---
+echo "Testing Cl_run_cdl for calculating radiances and fluxes with mls profile:"
+cd setup_atmos
+./run_me mls || err=1
+cd ../
+
+echo ---
+echo "Testing Cscatter, Cscatter_average and prep_spec for generating aerosol data:"
+cd aerosols
+./make_ga8_aerosol || err=1
+cd ../
+
+echo ---
+echo "Testing Cscatter for generating cloud droplet parametrisations:"
+cd droplets
+./run_me || err=1
+cd ../
+
+echo ---
+if [ $err -gt 0 ] ; then
+  echo "Some tests failed."
+  exit 1
+else
+  echo "All passed."
+  exit 0
+fi

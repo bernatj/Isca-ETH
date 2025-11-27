@@ -1,0 +1,22 @@
+#
+# For IAC/ETH Linux Systems
+#
+
+MPI = ${MPI_ROOT}
+MPI_INC = ${MPI_ROOT}/include
+
+NETCDF_ROOT = ${NETCDF}
+NETCDF_INC = ${NETCDF_ROOT}/include
+NETCDF_LIB = ${NETCDF_ROOT}/lib
+
+FFLAGS =  -fpp -stack_temps -assume byterecl -i4 -r8 -nowarn -g -I${NETCDF_INC} -I${MPI_INC}
+OPT = -O2 -xAVX
+FFLAGS += ${OPT}
+CPPFLAGS =  -I/usr/include  -I${NETCDF_INC}  -I${MPI_INC}
+
+FC = mpif90
+LD = mpif90
+
+LDFLAGS = -shared-intel -L${NETCDF_LIB} -lnetcdf -lnetcdff
+
+CFLAGS = -D__IFC

@@ -1,0 +1,4 @@
+# Ignore large restart artifacts not meant for version control
+src/extra/python/scripts/atmosphere_old_mod_85_onescript.res.nc
+src/extra/python/scripts/res_85_onescript
+src/extra/python/scripts/spectral_dynamics_old_mod_85_onescript.res.nc

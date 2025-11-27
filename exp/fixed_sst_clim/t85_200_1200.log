@@ -1,0 +1,140 @@
+Sender: LSF System <lsfadmin@eu-c7-057-12>
+Subject: Job 66720614: <python2.7 fixed_sst_clim_3d_ozone_t85.py> in cluster <euler> Exited
+
+Job <python2.7 fixed_sst_clim_3d_ozone_t85.py> was submitted from host <eu-login-09> by user <bernatj> in cluster <euler> at Fri Jun 22 15:31:53 2018.
+Job was executed on host(s) <4*eu-c7-057-12>, in queue <normal.120h>, as user <bernatj> in cluster <euler> at Fri Jun 22 15:32:08 2018.
+                            <4*eu-c7-061-13>
+                            <4*eu-c7-057-02>
+                            <6*eu-c7-041-07>
+                            <7*eu-c7-041-11>
+                            <7*eu-c7-063-15>
+                            <8*eu-c7-041-14>
+                            <8*eu-c7-057-04>
+                            <4*eu-c7-058-12>
+                            <8*eu-c7-061-05>
+                            <4*eu-c7-063-01>
+</cluster/home/bernatj> was used as the home directory.
+</cluster/home/bernatj/Isca-master/exp/fixed_sst_clim> was used as the working directory.
+Started at Fri Jun 22 15:32:08 2018.
+Terminated at Fri Jun 22 15:54:11 2018.
+Results reported at Fri Jun 22 15:54:11 2018.
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python2.7 fixed_sst_clim_3d_ozone_t85.py
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with signal termination: 9.
+
+Resource usage summary:
+
+    CPU time :                                   80633.00 sec.
+    Max Memory :                                 5722 MB
+    Average Memory :                             5310.91 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               59814.00 MB
+    Max Swap :                                   5 MB
+    Max Processes :                              79
+    Max Threads :                                203
+    Run time :                                   1324 sec.
+    Turnaround time :                            1338 sec.
+
+The output (if any) follows:
+
+2018-06-22 15:32:12,868 - gfdl - WARNING - Working directory for exp 'fixed_sst_clim_t85' already exists
+2018-06-22 15:32:13,007 - gfdl - INFO - Writing path_names to '/cluster/work/climate/bernatj/fixed_sst_clim_t85/path_names'
+2018-06-22 15:32:13,018 - gfdl - INFO - Running compiler
+2018-06-22 15:32:13,039 - gfdl - DEBUG - /cluster/work/climate/bernatj/fixed_sst_clim_t85/compile.sh: line 18: nf-config: command not found
+2018-06-22 15:32:13,460 - gfdl - DEBUG - loadmodules
+2018-06-22 15:32:13,893 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2018-06-22 15:32:13,895 - gfdl - DEBUG - 1) new                           5) szip/2.1(default)
+2018-06-22 15:32:13,895 - gfdl - DEBUG - 2) intel/16.0.2.181              6) hdf5/1.8.12(default)
+2018-06-22 15:32:13,896 - gfdl - DEBUG - 3) legacy                        7) netcdf/4.3.1(4.3:default)
+2018-06-22 15:32:13,896 - gfdl - DEBUG - 4) centos_cruft/6                8) open_mpi/1.6.5(1.6:default)
+2018-06-22 15:32:14,476 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2018-06-22 15:32:14,478 - gfdl - DEBUG - 1) new                           5) szip/2.1(default)
+2018-06-22 15:32:14,479 - gfdl - DEBUG - 2) intel/16.0.2.181              6) hdf5/1.8.12(default)
+2018-06-22 15:32:14,479 - gfdl - DEBUG - 3) legacy                        7) netcdf/4.3.1(4.3:default)
+2018-06-22 15:32:14,479 - gfdl - DEBUG - 4) centos_cruft/6                8) open_mpi/1.6.5(1.6:default)
+2018-06-22 15:32:15,252 - gfdl - DEBUG - ln: failed to create symbolic link ‘/cluster/work/climate/bernatj/fixed_sst_clim_t85/exec/mppnccombine.x’: File exists
+2018-06-22 15:32:16,285 - gfdl - DEBUG - Makefile is ready.
+2018-06-22 15:32:16,525 - gfdl - DEBUG - make: Nothing to be done for `all'.
+2018-06-22 15:32:16,700 - gfdl - DEBUG - make: `fms_moist.x' is up to date.
+2018-06-22 15:32:16,705 - gfdl - DEBUG - ...................................................................................................................................................................................................
+2018-06-22 15:32:16,737 - gfdl - DEBUG - Compilation complete.
+2018-06-22 15:32:16,834 - gfdl - INFO - Emptied run directory '/cluster/work/climate/bernatj/fixed_sst_clim_t85/run'
+2018-06-22 15:32:16,890 - gfdl - INFO - Writing namelist to '/cluster/work/climate/bernatj/fixed_sst_clim_t85/run/input.nml'
+2018-06-22 15:32:16,896 - gfdl - INFO - Writing field_table to '/cluster/work/climate/bernatj/fixed_sst_clim_t85/run/field_table'
+2018-06-22 15:32:16,915 - gfdl - INFO - Writing diag_table to '/cluster/work/climate/bernatj/fixed_sst_clim_t85/run/diag_table'
+2018-06-22 15:32:17,552 - gfdl - INFO - Running month 1 without restart file
+2018-06-22 15:32:17,566 - gfdl - INFO - Running GFDL for month 1
+2018-06-22 15:32:17,829 - gfdl - DEBUG - loadmodules
+2018-06-22 15:32:18,249 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2018-06-22 15:32:18,251 - gfdl - DEBUG - 1) new                           5) szip/2.1(default)
+2018-06-22 15:32:18,251 - gfdl - DEBUG - 2) intel/16.0.2.181              6) hdf5/1.8.12(default)
+2018-06-22 15:32:18,252 - gfdl - DEBUG - 3) legacy                        7) netcdf/4.3.1(4.3:default)
+2018-06-22 15:32:18,252 - gfdl - DEBUG - 4) centos_cruft/6                8) open_mpi/1.6.5(1.6:default)
+2018-06-22 15:32:19,488 - gfdl - DEBUG - --------------------------------------------------------------------------
+2018-06-22 15:32:19,488 - gfdl - DEBUG - The OpenFabrics (openib) BTL failed to initialize while trying to
+2018-06-22 15:32:19,488 - gfdl - DEBUG - allocate some locked memory.  This typically can indicate that the
+2018-06-22 15:32:19,488 - gfdl - DEBUG - memlock limits are set too low.  For most HPC installations, the
+2018-06-22 15:32:19,488 - gfdl - DEBUG - memlock limits should be set to "unlimited".  The failure occured
+2018-06-22 15:32:19,488 - gfdl - DEBUG - here:
+2018-06-22 15:32:19,488 - gfdl - DEBUG - Local host:    eu-c7-057-12
+2018-06-22 15:32:19,489 - gfdl - DEBUG - OMPI source:   btl_openib_component.c:1180
+2018-06-22 15:32:19,489 - gfdl - DEBUG - Function:      ompi_free_list_init_ex_new()
+2018-06-22 15:32:19,489 - gfdl - DEBUG - Device:        mlx4_0
+2018-06-22 15:32:19,489 - gfdl - DEBUG - Memlock limit: unlimited
+2018-06-22 15:32:19,489 - gfdl - DEBUG - You may need to consult with your system administrator to get this
+2018-06-22 15:32:19,489 - gfdl - DEBUG - problem fixed.  This FAQ entry on the Open MPI web site may also be
+2018-06-22 15:32:19,489 - gfdl - DEBUG - helpful:
+2018-06-22 15:32:19,489 - gfdl - DEBUG - http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+2018-06-22 15:32:19,489 - gfdl - DEBUG - --------------------------------------------------------------------------
+2018-06-22 15:32:19,489 - gfdl - DEBUG - --------------------------------------------------------------------------
+2018-06-22 15:32:19,489 - gfdl - DEBUG - WARNING: There was an error initializing an OpenFabrics device.
+2018-06-22 15:32:19,489 - gfdl - DEBUG - Local host:   eu-c7-057-12
+2018-06-22 15:32:19,489 - gfdl - DEBUG - Local device: mlx4_0
+2018-06-22 15:32:19,490 - gfdl - DEBUG - --------------------------------------------------------------------------
+2018-06-22 15:32:20,829 - gfdl - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-06-22 15:32:20,830 - gfdl - DEBUG - &MPP_IO_NML
+2018-06-22 15:32:20,830 - gfdl - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-06-22 15:32:20,830 - gfdl - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-06-22 15:32:20,831 - gfdl - DEBUG - IO_CLOCKS_ON    = F,
+2018-06-22 15:32:20,831 - gfdl - DEBUG - SHUFFLE =           0,
+2018-06-22 15:32:20,831 - gfdl - DEBUG - DEFLATE_LEVEL   =          -1
+2018-06-22 15:32:20,831 - gfdl - DEBUG - /
+2018-06-22 15:32:20,832 - gfdl - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-06-22 15:32:20,859 - gfdl - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-06-22 15:32:20,905 - gfdl - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-06-22 15:32:20,916 - gfdl - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-06-22 15:32:20,916 - gfdl - DEBUG - X-AXIS =  256
+2018-06-22 15:32:20,916 - gfdl - DEBUG - Y-AXIS =    2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+2018-06-22 15:32:20,916 - gfdl - DEBUG - 2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+2018-06-22 15:32:20,917 - gfdl - DEBUG - 2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+2018-06-22 15:32:22,941 - gfdl - DEBUG - Message from subroutine regularize: lambda=  1.00000000E-07  fraction_smoothed=  5.88632190E-01
+2018-06-22 15:32:24,490 - gfdl - DEBUG - [eu-c7-057-12:47607] 3 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+2018-06-22 15:32:24,490 - gfdl - DEBUG - [eu-c7-057-12:47607] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+2018-06-22 15:32:24,490 - gfdl - DEBUG - [eu-c7-057-12:47607] 3 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+2018-06-22 15:32:25,025 - gfdl - DEBUG - Message from subroutine regularize: lambda=  2.00000000E-07  fraction_smoothed=  7.00003422E-01
+2018-06-22 15:32:28,671 - gfdl - DEBUG - Message from subroutine regularize: lambda=  2.89786722E-07  fraction_smoothed=  7.52456548E-01
+2018-06-22 15:32:30,710 - gfdl - DEBUG - Message from subroutine regularize: lambda=  3.71169301E-07  fraction_smoothed=  7.84267630E-01
+2018-06-22 15:32:32,756 - gfdl - DEBUG - Message from subroutine regularize: lambda=  4.11417564E-07  fraction_smoothed=  7.96640219E-01
+2018-06-22 15:32:34,807 - gfdl - DEBUG - Message from subroutine regularize: lambda=  4.22346995E-07  fraction_smoothed=  7.99712368E-01
+2018-06-22 15:32:36,841 - gfdl - DEBUG - Message from subroutine regularize: lambda=  4.22346995E-07  fraction_smoothed=  7.99712368E-01
+2018-06-22 15:32:36,841 - gfdl - DEBUG - Message from subroutine get_topography:
+2018-06-22 15:32:36,841 - gfdl - DEBUG - lambda=  4.22346995E-07  fraction_smoothed=  7.99712368E-01
+2018-06-22 15:32:37,155 - gfdl - DEBUG - mean surface pressure= 973.3627 mb
+2018-06-22 15:32:37,414 - gfdl - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Betts-Miller convection scheme.
+2018-06-22 15:32:37,444 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :sst_clim_ersstv4.nc is a year-independent climatology file
+2018-06-22 15:32:37,636 - gfdl - DEBUG - Initializing src field : sst_clim_ersstv4
+2018-06-22 15:32:37,685 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :siconc_clim_eraint.nc is a year-independent climatology file
+2018-06-22 15:32:37,694 - gfdl - DEBUG - Initializing src field : siconc_clim_eraint
+2018-06-22 15:32:37,824 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :ozone_era.nc is a year-independent climatology file
+2018-06-22 15:32:38,127 - gfdl - DEBUG - Initializing src field : ozone_era
+2018-06-22 15:32:38,211 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :h2o_era.nc is a year-independent climatology file
+2018-06-22 15:32:38,282 - gfdl - DEBUG - Initializing src field : h2o_era
+2018-06-22 15:32:38,309 - gfdl - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     388944.
+2018-06-22 15:43:11,325 - gfdl - DEBUG - Integration completed through    1 Jan  2   0: 0: 0

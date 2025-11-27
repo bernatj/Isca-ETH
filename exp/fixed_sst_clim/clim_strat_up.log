@@ -1,0 +1,104 @@
+2019-06-06 18:06:37,338 - gfdl - WARNING - Working directory for exp 'fixed_sst_clim_zm_strat_up' already exists
+2019-06-06 18:06:37,445 - gfdl - INFO - Writing path_names to '/s2s/bernatj//simple_models//Isca-master/sim/fixed_sst_clim_zm_strat_up/path_names'
+2019-06-06 18:06:37,503 - gfdl - INFO - Running compiler
+2019-06-06 18:06:37,520 - gfdl - DEBUG - /s2s/bernatj//simple_models//Isca-master/sim/fixed_sst_clim_zm_strat_up/compile.sh: line 18: nf-config: command not found
+2019-06-06 18:06:37,546 - gfdl - DEBUG - loadmodules
+2019-06-06 18:06:37,833 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2019-06-06 18:06:37,836 - gfdl - DEBUG - 1) intel/16.0.2                 3) netcdf/4.3.3-intel
+2019-06-06 18:06:37,836 - gfdl - DEBUG - 2) hdf5/1.8.15                  4) openmpi/1.6.3-intel-16.0.2
+2019-06-06 18:06:37,976 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2019-06-06 18:06:37,980 - gfdl - DEBUG - 1) intel/16.0.2                 3) netcdf/4.3.3-intel
+2019-06-06 18:06:37,980 - gfdl - DEBUG - 2) hdf5/1.8.15                  4) openmpi/1.6.3-intel-16.0.2
+2019-06-06 18:06:38,698 - gfdl - DEBUG - ln: failed to create symbolic link '/s2s/bernatj//simple_models//Isca-master/sim/fixed_sst_clim_zm_strat_up/exec/mppnccombine.x': File exists
+2019-06-06 18:06:42,376 - gfdl - DEBUG - Makefile is ready.
+2019-06-06 18:06:42,474 - gfdl - DEBUG - make: Nothing to be done for 'all'.
+2019-06-06 18:06:42,564 - gfdl - DEBUG - make: 'fms_moist.x' is up to date.
+2019-06-06 18:06:42,565 - gfdl - DEBUG - ...................................................................................................................................................................................................
+2019-06-06 18:06:42,624 - gfdl - DEBUG - Compilation complete.
+2019-06-06 18:06:42,700 - gfdl - INFO - Emptied run directory '/s2s/bernatj//simple_models//Isca-master/sim/fixed_sst_clim_zm_strat_up/run'
+2019-06-06 18:06:42,742 - gfdl - INFO - Writing namelist to '/s2s/bernatj//simple_models//Isca-master/sim/fixed_sst_clim_zm_strat_up/run/input.nml'
+2019-06-06 18:06:42,745 - gfdl - INFO - Writing field_table to '/s2s/bernatj//simple_models//Isca-master/sim/fixed_sst_clim_zm_strat_up/run/field_table'
+2019-06-06 18:06:42,759 - gfdl - INFO - Writing diag_table to '/s2s/bernatj//simple_models//Isca-master/sim/fixed_sst_clim_zm_strat_up/run/diag_table'
+2019-06-06 18:06:43,218 - gfdl - INFO - Using restart file '/s2s/bernatj//simple_models//Isca-master/sim/fixed_sst_clim_zm_strat_up/restarts/res_19.cpio'
+2019-06-06 18:06:43,222 - gfdl - INFO - Running GFDL for month 20
+2019-06-06 18:06:43,254 - gfdl - DEBUG - loadmodules
+2019-06-06 18:06:43,354 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2019-06-06 18:06:43,356 - gfdl - DEBUG - 1) intel/16.0.2                 3) netcdf/4.3.3-intel
+2019-06-06 18:06:43,357 - gfdl - DEBUG - 2) hdf5/1.8.15                  4) openmpi/1.6.3-intel-16.0.2
+2019-06-06 18:06:43,440 - gfdl - DEBUG - atmos_model.res
+2019-06-06 18:06:43,547 - gfdl - DEBUG - atmosphere.res.nc
+2019-06-06 18:06:43,547 - gfdl - DEBUG - mixed_layer.res.nc
+2019-06-06 18:06:43,701 - gfdl - DEBUG - spectral_dynamics.res.nc
+2019-06-06 18:06:43,702 - gfdl - DEBUG - 159934 blocks
+2019-06-06 18:06:43,901 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,901 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,901 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,901 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,901 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,901 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,901 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,901 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,901 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,901 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,902 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,902 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,902 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,902 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,902 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,902 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,902 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,902 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,902 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,902 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,903 - gfdl - DEBUG - fms_moist.x: error while loading shared libraries: libmpi_f90.so.1: cannot open shared object file: No such file or directory
+2019-06-06 18:06:43,907 - gfdl - DEBUG - --------------------------------------------------------------------------
+2019-06-06 18:06:43,907 - gfdl - DEBUG - mpirun noticed that the job aborted, but has no info as to the process
+2019-06-06 18:06:43,907 - gfdl - DEBUG - that caused that situation.
+2019-06-06 18:06:43,907 - gfdl - DEBUG - --------------------------------------------------------------------------
+Exception in thread background thread for pid 32638:
+Traceback (most recent call last):
+  File "/home/bernatj/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/bernatj/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 1540, in wrap
+    fn(*args, **kwargs)
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 2455, in background_thread
+    handle_exit_code(exit_code)
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 2153, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+ErrorReturnCode_127: 
+
+  RAN: /bin/bash /s2s/bernatj//simple_models//Isca-master/sim/fixed_sst_clim_zm_strat_up/run/runmonth.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+2019-06-06 18:06:43,952 - gfdl - ERROR - Run failed for month 20
+Disk space more than 20Gb - not sending alert email.
+Traceback (most recent call last):
+  File "fixed_sst_clim_3d_ozone.py", line 143, in <module>
+    baseexp.runmonth(i, num_cores=32, use_restart=True, light=False)
+  File "/s2s/bernatj/simple_models/Isca-master/src/extra/python/gfdl/experiment.py", line 509, in run
+    proc.process.kill()
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 2273, in kill
+    self.signal(signal.SIGKILL)
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 2265, in signal
+    os.kill(self.pid, sig)
+OSError: [Errno 3] No such process

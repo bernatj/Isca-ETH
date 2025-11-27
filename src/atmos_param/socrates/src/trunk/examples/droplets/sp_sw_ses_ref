@@ -1,0 +1,135 @@
+*BLOCK: TYPE =    0: SUBTYPE =    0: VERSION =    2
+Summary of spectral data.
+Number of spectral bands =     9
+Total number of gaseous absorbers =     1
+List of indexing numbers and absorbers.
+Index       Absorber(identifier and name)
+    1           1       Water Vapour        
+*END
+*BLOCK: TYPE =    1: SUBTYPE =    0: VERSION =    0
+Specification of spectral intervals
+Limits of spectral intervals (wavelengths in m.)
+Band        Lower limit         Upper limit
+    1        2.000000000E-07     4.545454545E-07
+    2        4.545454545E-07     5.000000000E-07
+    3        5.000000000E-07     6.250000000E-07
+    4        6.250000000E-07     7.007708479E-07
+    5        7.007708479E-07     8.333333333E-07
+    6        8.333333333E-07     1.176470588E-06
+    7        1.176470588E-06     1.666666667E-06
+    8        1.666666667E-06     2.500000000E-06
+    9        2.500000000E-06     5.000000000E-06
+*END
+*BLOCK: TYPE =    2: SUBTYPE =    0: VERSION =    0
+Normalized solar flux in each spectral interval.
+Band        Normalized flux
+    1        1.510641549E-01
+    2        6.571897443E-02
+    3        1.662930568E-01
+    4        8.534461430E-02
+    5        1.182322421E-01
+    6        1.876178055E-01
+    7        1.244352196E-01
+    8        6.773916772E-02
+    9        2.889869529E-02
+*END
+*BLOCK: TYPE =    3: SUBTYPE =    0: VERSION =    0
+Rayleigh mass scattering coefficients at STP: unit m**2/kg
+Band        Rayleigh coefficient
+                 m2/kg
+    1        5.459936722E-05
+    2        1.689326584E-05
+    3        8.986819011E-06
+    4        4.463271679E-06
+    5        2.534070469E-06
+    6        9.776433670E-07
+    7        2.473178740E-07
+    8        6.048694424E-08
+    9        1.011848144E-08
+*END
+*BLOCK: TYPE =    4: SUBTYPE =    0: VERSION =    0
+Gaseous absorbers in each interval
+(The number is the indexing number of the species as set out
+ in the summary block 0.)
+A zero indicates that there in no gaseous absorption in the interval.
+Band        Number of active absorbers followed by indexing numbers
+    1           0
+    2           0
+    3           0
+    4           0
+    5           0
+    6           0
+    7           0
+    8           0
+    9           0
+*END
+*BLOCK: TYPE =    8: SUBTYPE =    0: VERSION =    0
+Continuum absorbers in each interval
+(The number is the indexing number of each type as set out
+ in the module rad_pcf.)
+A zero indicates that there is no continuum absorption in the interval.
+Band         Number of active continua followed by indexing numbers
+    1           0
+    2           0
+    3           0
+    4           0
+    5           0
+    6           0
+    7           0
+    8           0
+    9           0
+Indexing numbers of gases for continua:
+     Index of water =     1
+*END
+*BLOCK: TYPE =   10: SUBTYPE =    0: VERSION =    2
+Parametrized scattering data for droplets.
+ Type number of droplets =     5
+Index of parametrization scheme =     5:   Number of parameters =    16
+Number of moments of the phase function =     1
+Range of validity of parametrization =  2.00000E-06 --  5.00000E-05
+Band =     1     Fitting parameters:
+    -1.07321E+04     2.02550E+10     7.54259E+14    -8.62921E+06
+     1.29123E+13     5.10097E+17     1.85637E-08     1.39839E-01
+     4.85821E+03     4.52651E+04    -3.90935E+07     4.01262E-01
+     3.52214E+06     4.20922E+10     4.02345E+06     4.75004E+10
+Band =     2     Fitting parameters:
+    -6.95494E+03     8.94088E+09     4.24957E+14    -6.00159E+06
+     6.03085E+12     2.48641E+17     5.27426E-10     2.62824E-02
+    -1.66537E+02    -8.64802E+02    -6.76324E+07     6.55011E-01
+     1.03735E+06     1.82177E+10     1.17898E+06     2.06904E+10
+Band =     3     Fitting parameters:
+    -6.88699E+03     4.33504E+09     1.84280E+14    -5.11932E+06
+     2.80050E+12     1.19350E+17    -1.62659E-08     9.66108E-02
+     1.15855E+03     2.37871E+04    -9.57811E+07     8.14441E-01
+    -2.09904E+05     2.48110E+11    -2.01972E+05     2.82127E+11
+Band =     4     Fitting parameters:
+    -3.68589E+03     4.67414E+09     3.20274E+14    -4.05491E+06
+     3.51472E+12     1.51983E+17    -1.28462E-07     4.48992E-01
+     1.89339E+04     6.73140E+04    -8.28904E+07     8.88618E-01
+    -8.33840E+05     4.74486E+11    -8.70731E+05     5.40213E+11
+Band =     5     Fitting parameters:
+    -4.68931E+03     5.93969E+09     4.16909E+14    -4.66823E+06
+     4.30536E+12     1.88204E+17    -6.07625E-07     2.37846E+00
+     1.07019E+05     6.91847E+04    -6.92710E+07     8.85974E-01
+    -8.98614E+05     3.84283E+11    -9.70691E+05     4.38601E+11
+Band =     6     Fitting parameters:
+     1.05219E+04     7.72017E+09     4.14092E+14     2.01115E+06
+     5.47135E+12     2.48760E+17    -8.94668E-06     2.55809E+01
+     1.36701E+06     8.43088E+04    -4.47145E+07     9.01793E-01
+    -5.02324E+05     3.24325E+11    -4.70664E+05     3.68342E+11
+Band =     7     Fitting parameters:
+    -1.48390E+03     2.41452E+09     9.84763E+13    -2.42348E+06
+     1.75470E+12     5.18835E+16    -1.21172E-04     5.56258E+02
+     1.31366E+07     5.28216E+04     3.15747E+07     8.36299E-01
+    -2.55252E+05     4.69705E+10    -2.84457E+05     5.35195E+10
+Band =     8     Fitting parameters:
+     3.33798E+01     7.98175E+08     2.29511E+13    -9.29843E+05
+     5.81028E+11     1.25735E+16     6.51901E-04     2.24330E+03
+    -2.54612E+07     5.10705E+03    -2.08453E+08    -7.53682E+00
+     1.41807E+08     3.80941E+12     1.71581E+08     3.94657E+12
+Band =     9     Fitting parameters:
+     3.13251E+02     2.02881E+08     1.77581E+13    -4.06804E+05
+     1.74141E+11     9.77307E+15     1.48555E+01    -3.27506E+06
+     3.67598E+12     1.05536E+08     7.55972E+12    -4.47068E+01
+     1.76463E+08     1.62117E+12     1.96202E+08     1.47243E+12
+*END

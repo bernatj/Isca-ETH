@@ -1,0 +1,833 @@
+2018-01-22 19:18:53,965 - gfdl - WARNING - Working directory for exp 'fixed_sst_clim_t85' already exists
+2018-01-22 19:18:54,023 - gfdl - INFO - Writing path_names to '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/path_names'
+2018-01-22 19:18:54,032 - gfdl - INFO - Running compiler
+2018-01-22 19:18:54,044 - gfdl - DEBUG - /s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/compile.sh: line 18: nf-config: command not found
+2018-01-22 19:18:54,052 - gfdl - DEBUG - loadmodules
+2018-01-22 19:18:54,143 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2018-01-22 19:18:54,146 - gfdl - DEBUG - 1) intel/16.0.2                 3) netcdf/4.3.3-intel
+2018-01-22 19:18:54,146 - gfdl - DEBUG - 2) hdf5/1.8.15                  4) openmpi/1.6.3-intel-16.0.2
+2018-01-22 19:18:54,257 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2018-01-22 19:18:54,260 - gfdl - DEBUG - 1) intel/16.0.2                 3) netcdf/4.3.3-intel
+2018-01-22 19:18:54,260 - gfdl - DEBUG - 2) hdf5/1.8.15                  4) openmpi/1.6.3-intel-16.0.2
+2018-01-22 19:18:54,535 - gfdl - DEBUG - ln: failed to create symbolic link '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/exec/mppnccombine.x': File exists
+2018-01-22 19:18:55,137 - gfdl - DEBUG - Makefile is ready.
+2018-01-22 19:18:55,221 - gfdl - DEBUG - make: Nothing to be done for 'all'.
+2018-01-22 19:18:55,301 - gfdl - DEBUG - make: 'fms_moist.x' is up to date.
+2018-01-22 19:18:55,302 - gfdl - DEBUG - ...................................................................................................................................................................................................
+2018-01-22 19:18:55,339 - gfdl - DEBUG - Compilation complete.
+2018-01-22 19:18:56,482 - gfdl - INFO - Emptied run directory '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/run'
+2018-01-22 19:18:56,483 - gfdl - ERROR - Data for month 17 already exists but overwrite_data is False. Stopping.
+2018-01-22 19:18:56,494 - gfdl - INFO - Writing namelist to '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/run/input.nml'
+2018-01-22 19:18:56,497 - gfdl - INFO - Writing field_table to '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/run/field_table'
+2018-01-22 19:18:56,508 - gfdl - INFO - Writing diag_table to '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/run/diag_table'
+2018-01-22 19:18:56,578 - gfdl - INFO - Using restart file '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/restarts/res_17.cpio'
+2018-01-22 19:18:56,592 - gfdl - INFO - Running GFDL for month 18
+2018-01-22 19:18:56,609 - gfdl - DEBUG - loadmodules
+2018-01-22 19:18:56,699 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2018-01-22 19:18:56,701 - gfdl - DEBUG - 1) intel/16.0.2                 3) netcdf/4.3.3-intel
+2018-01-22 19:18:56,701 - gfdl - DEBUG - 2) hdf5/1.8.15                  4) openmpi/1.6.3-intel-16.0.2
+2018-01-22 19:18:57,105 - gfdl - DEBUG - atmos_model.res
+2018-01-22 19:18:58,531 - gfdl - DEBUG - atmosphere.res.nc
+2018-01-22 19:18:58,534 - gfdl - DEBUG - mixed_layer.res.nc
+2018-01-22 19:19:00,668 - gfdl - DEBUG - spectral_dynamics.res.nc
+2018-01-22 19:19:00,668 - gfdl - DEBUG - 637532 blocks
+2018-01-22 19:19:02,307 - gfdl - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-01-22 19:19:02,307 - gfdl - DEBUG - &MPP_IO_NML
+2018-01-22 19:19:02,308 - gfdl - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-01-22 19:19:02,308 - gfdl - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-01-22 19:19:02,308 - gfdl - DEBUG - IO_CLOCKS_ON    = F,
+2018-01-22 19:19:02,308 - gfdl - DEBUG - SHUFFLE =           0,
+2018-01-22 19:19:02,308 - gfdl - DEBUG - DEFLATE_LEVEL   =          -1
+2018-01-22 19:19:02,308 - gfdl - DEBUG - /
+2018-01-22 19:19:02,308 - gfdl - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-01-22 19:19:02,311 - gfdl - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-01-22 19:19:02,315 - gfdl - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-01-22 19:19:02,316 - gfdl - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-01-22 19:19:02,316 - gfdl - DEBUG - X-AXIS =  256
+2018-01-22 19:19:02,316 - gfdl - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8
+2018-01-22 19:19:02,410 - gfdl - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Betts-Miller convection scheme.
+2018-01-22 19:19:02,415 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :sst_clim_ersst.nc is a year-independent climatology file
+2018-01-22 19:19:02,461 - gfdl - DEBUG - Initializing src field : sst_clim_ersst
+2018-01-22 19:19:02,463 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :siconc_clim_eraint.nc is a year-independent climatology file
+2018-01-22 19:19:02,465 - gfdl - DEBUG - Initializing src field : siconc_clim_eraint
+2018-01-22 19:19:02,508 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :ozone.nc is a year-independent climatology file
+2018-01-22 19:19:02,533 - gfdl - DEBUG - Initializing src field : ozone
+2018-01-22 19:21:01,236 - gfdl - DEBUG - Integration completed through   57 Jan  2   0: 0: 0
+2018-01-22 19:22:58,828 - gfdl - DEBUG - Integration completed through   57 Jan  3   0: 0: 0
+2018-01-22 19:24:59,483 - gfdl - DEBUG - Integration completed through   57 Jan  4   0: 0: 0
+2018-01-22 19:26:59,053 - gfdl - DEBUG - Integration completed through   57 Jan  5   0: 0: 0
+2018-01-22 19:28:56,456 - gfdl - DEBUG - Integration completed through   57 Jan  6   0: 0: 0
+2018-01-22 19:31:15,099 - gfdl - DEBUG - Integration completed through   57 Jan  7   0: 0: 0
+2018-01-22 19:34:04,688 - gfdl - DEBUG - Integration completed through   57 Jan  8   0: 0: 0
+2018-01-22 19:36:43,249 - gfdl - DEBUG - Integration completed through   57 Jan  9   0: 0: 0
+2018-01-22 19:39:44,906 - gfdl - DEBUG - Integration completed through   57 Jan 10   0: 0: 0
+2018-01-22 19:42:23,327 - gfdl - DEBUG - Integration completed through   57 Jan 11   0: 0: 0
+2018-01-22 19:45:02,709 - gfdl - DEBUG - Integration completed through   57 Jan 12   0: 0: 0
+2018-01-22 19:47:48,434 - gfdl - DEBUG - Integration completed through   57 Jan 13   0: 0: 0
+2018-01-22 19:50:22,789 - gfdl - DEBUG - Integration completed through   57 Jan 14   0: 0: 0
+2018-01-22 19:52:55,652 - gfdl - DEBUG - Integration completed through   57 Jan 15   0: 0: 0
+2018-01-22 19:55:30,855 - gfdl - DEBUG - Integration completed through   57 Jan 16   0: 0: 0
+2018-01-22 19:58:19,112 - gfdl - DEBUG - Integration completed through   57 Jan 17   0: 0: 0
+2018-01-22 20:00:58,682 - gfdl - DEBUG - Integration completed through   57 Jan 18   0: 0: 0
+2018-01-22 20:03:47,764 - gfdl - DEBUG - Integration completed through   57 Jan 19   0: 0: 0
+2018-01-22 20:06:28,744 - gfdl - DEBUG - Integration completed through   57 Jan 20   0: 0: 0
+2018-01-22 20:09:14,163 - gfdl - DEBUG - Integration completed through   57 Jan 21   0: 0: 0
+2018-01-22 20:11:58,228 - gfdl - DEBUG - Integration completed through   57 Jan 22   0: 0: 0
+2018-01-22 20:14:33,026 - gfdl - DEBUG - Integration completed through   57 Jan 23   0: 0: 0
+2018-01-22 20:17:12,439 - gfdl - DEBUG - Integration completed through   57 Jan 24   0: 0: 0
+2018-01-22 20:19:58,748 - gfdl - DEBUG - Integration completed through   57 Jan 25   0: 0: 0
+2018-01-22 20:23:01,960 - gfdl - DEBUG - Integration completed through   57 Jan 26   0: 0: 0
+2018-01-22 20:25:59,365 - gfdl - DEBUG - Integration completed through   57 Jan 27   0: 0: 0
+2018-01-22 20:28:37,229 - gfdl - DEBUG - Integration completed through   57 Jan 28   0: 0: 0
+2018-01-22 20:31:39,160 - gfdl - DEBUG - Integration completed through   57 Jan 29   0: 0: 0
+2018-01-22 20:34:22,032 - gfdl - DEBUG - Integration completed through   57 Jan 30   0: 0: 0
+2018-01-22 20:37:02,328 - gfdl - DEBUG - Integration completed through   57 Feb  1   0: 0: 0
+2018-01-22 20:39:46,772 - gfdl - DEBUG - Integration completed through   57 Feb  2   0: 0: 0
+2018-01-22 20:42:37,602 - gfdl - DEBUG - Integration completed through   57 Feb  3   0: 0: 0
+2018-01-22 20:45:23,445 - gfdl - DEBUG - Integration completed through   57 Feb  4   0: 0: 0
+2018-01-22 20:48:06,312 - gfdl - DEBUG - Integration completed through   57 Feb  5   0: 0: 0
+2018-01-22 20:50:52,146 - gfdl - DEBUG - Integration completed through   57 Feb  6   0: 0: 0
+2018-01-22 20:53:21,181 - gfdl - DEBUG - Integration completed through   57 Feb  7   0: 0: 0
+2018-01-22 20:55:50,585 - gfdl - DEBUG - Integration completed through   57 Feb  8   0: 0: 0
+2018-01-22 20:58:20,621 - gfdl - DEBUG - Integration completed through   57 Feb  9   0: 0: 0
+2018-01-22 21:00:59,893 - gfdl - DEBUG - Integration completed through   57 Feb 10   0: 0: 0
+2018-01-22 21:03:35,827 - gfdl - DEBUG - Integration completed through   57 Feb 11   0: 0: 0
+2018-01-22 21:06:11,728 - gfdl - DEBUG - Integration completed through   57 Feb 12   0: 0: 0
+2018-01-22 21:09:02,141 - gfdl - DEBUG - Integration completed through   57 Feb 13   0: 0: 0
+2018-01-22 21:11:45,661 - gfdl - DEBUG - Integration completed through   57 Feb 14   0: 0: 0
+2018-01-22 21:14:29,057 - gfdl - DEBUG - Integration completed through   57 Feb 15   0: 0: 0
+2018-01-22 21:17:32,375 - gfdl - DEBUG - Integration completed through   57 Feb 16   0: 0: 0
+2018-01-22 21:20:28,443 - gfdl - DEBUG - Integration completed through   57 Feb 17   0: 0: 0
+2018-01-22 21:23:04,810 - gfdl - DEBUG - Integration completed through   57 Feb 18   0: 0: 0
+2018-01-22 21:25:44,413 - gfdl - DEBUG - Integration completed through   57 Feb 19   0: 0: 0
+2018-01-22 21:28:43,013 - gfdl - DEBUG - Integration completed through   57 Feb 20   0: 0: 0
+2018-01-22 21:31:16,327 - gfdl - DEBUG - Integration completed through   57 Feb 21   0: 0: 0
+2018-01-22 21:33:54,789 - gfdl - DEBUG - Integration completed through   57 Feb 22   0: 0: 0
+2018-01-22 21:36:29,765 - gfdl - DEBUG - Integration completed through   57 Feb 23   0: 0: 0
+2018-01-22 21:39:22,329 - gfdl - DEBUG - Integration completed through   57 Feb 24   0: 0: 0
+2018-01-22 21:42:27,190 - gfdl - DEBUG - Integration completed through   57 Feb 25   0: 0: 0
+2018-01-22 21:45:14,275 - gfdl - DEBUG - Integration completed through   57 Feb 26   0: 0: 0
+2018-01-22 21:47:55,667 - gfdl - DEBUG - Integration completed through   57 Feb 27   0: 0: 0
+2018-01-22 21:50:36,072 - gfdl - DEBUG - Integration completed through   57 Feb 28   0: 0: 0
+2018-01-22 21:53:16,850 - gfdl - DEBUG - Integration completed through   57 Feb 29   0: 0: 0
+2018-01-22 21:55:47,282 - gfdl - DEBUG - Integration completed through   57 Feb 30   0: 0: 0
+2018-01-22 21:58:34,697 - gfdl - DEBUG - Integration completed through   57 Mar  1   0: 0: 0
+2018-01-22 22:01:12,837 - gfdl - DEBUG - Integration completed through   57 Mar  2   0: 0: 0
+2018-01-22 22:03:44,280 - gfdl - DEBUG - Integration completed through   57 Mar  3   0: 0: 0
+2018-01-22 22:06:41,588 - gfdl - DEBUG - Integration completed through   57 Mar  4   0: 0: 0
+2018-01-22 22:09:41,081 - gfdl - DEBUG - Integration completed through   57 Mar  5   0: 0: 0
+2018-01-22 22:12:23,271 - gfdl - DEBUG - Integration completed through   57 Mar  6   0: 0: 0
+2018-01-22 22:15:12,703 - gfdl - DEBUG - Integration completed through   57 Mar  7   0: 0: 0
+2018-01-22 22:17:55,226 - gfdl - DEBUG - Integration completed through   57 Mar  8   0: 0: 0
+2018-01-22 22:20:26,278 - gfdl - DEBUG - Integration completed through   57 Mar  9   0: 0: 0
+2018-01-22 22:23:00,110 - gfdl - DEBUG - Integration completed through   57 Mar 10   0: 0: 0
+2018-01-22 22:25:34,242 - gfdl - DEBUG - Integration completed through   57 Mar 11   0: 0: 0
+2018-01-22 22:28:05,025 - gfdl - DEBUG - Integration completed through   57 Mar 12   0: 0: 0
+2018-01-22 22:30:54,711 - gfdl - DEBUG - Integration completed through   57 Mar 13   0: 0: 0
+2018-01-22 22:33:30,627 - gfdl - DEBUG - Integration completed through   57 Mar 14   0: 0: 0
+2018-01-22 22:36:01,186 - gfdl - DEBUG - Integration completed through   57 Mar 15   0: 0: 0
+2018-01-22 22:38:28,639 - gfdl - DEBUG - Integration completed through   57 Mar 16   0: 0: 0
+2018-01-22 22:40:58,280 - gfdl - DEBUG - Integration completed through   57 Mar 17   0: 0: 0
+2018-01-22 22:43:29,869 - gfdl - DEBUG - Integration completed through   57 Mar 18   0: 0: 0
+2018-01-22 22:46:01,154 - gfdl - DEBUG - Integration completed through   57 Mar 19   0: 0: 0
+2018-01-22 22:48:31,636 - gfdl - DEBUG - Integration completed through   57 Mar 20   0: 0: 0
+2018-01-22 22:51:11,193 - gfdl - DEBUG - Integration completed through   57 Mar 21   0: 0: 0
+2018-01-22 22:53:51,590 - gfdl - DEBUG - Integration completed through   57 Mar 22   0: 0: 0
+2018-01-22 22:56:25,115 - gfdl - DEBUG - Integration completed through   57 Mar 23   0: 0: 0
+2018-01-22 22:59:08,929 - gfdl - DEBUG - Integration completed through   57 Mar 24   0: 0: 0
+2018-01-22 23:01:37,757 - gfdl - DEBUG - Integration completed through   57 Mar 25   0: 0: 0
+2018-01-22 23:04:09,010 - gfdl - DEBUG - Integration completed through   57 Mar 26   0: 0: 0
+2018-01-22 23:06:40,939 - gfdl - DEBUG - Integration completed through   57 Mar 27   0: 0: 0
+2018-01-22 23:09:12,250 - gfdl - DEBUG - Integration completed through   57 Mar 28   0: 0: 0
+2018-01-22 23:11:41,699 - gfdl - DEBUG - Integration completed through   57 Mar 29   0: 0: 0
+2018-01-22 23:14:13,229 - gfdl - DEBUG - Integration completed through   57 Mar 30   0: 0: 0
+2018-01-22 23:16:44,257 - gfdl - DEBUG - Integration completed through   57 Apr  1   0: 0: 0
+2018-01-22 23:19:04,096 - gfdl - DEBUG - Integration completed through   57 Apr  2   0: 0: 0
+2018-01-22 23:21:33,176 - gfdl - DEBUG - Integration completed through   57 Apr  3   0: 0: 0
+2018-01-22 23:24:03,679 - gfdl - DEBUG - Integration completed through   57 Apr  4   0: 0: 0
+2018-01-22 23:26:32,353 - gfdl - DEBUG - Integration completed through   57 Apr  5   0: 0: 0
+2018-01-22 23:29:01,810 - gfdl - DEBUG - Integration completed through   57 Apr  6   0: 0: 0
+2018-01-22 23:31:35,416 - gfdl - DEBUG - Integration completed through   57 Apr  7   0: 0: 0
+2018-01-22 23:34:09,779 - gfdl - DEBUG - Integration completed through   57 Apr  8   0: 0: 0
+2018-01-22 23:36:39,410 - gfdl - DEBUG - Integration completed through   57 Apr  9   0: 0: 0
+2018-01-22 23:39:10,273 - gfdl - DEBUG - Integration completed through   57 Apr 10   0: 0: 0
+2018-01-22 23:41:38,979 - gfdl - DEBUG - Integration completed through   57 Apr 11   0: 0: 0
+2018-01-22 23:44:11,191 - gfdl - DEBUG - Integration completed through   57 Apr 12   0: 0: 0
+2018-01-22 23:46:42,482 - gfdl - DEBUG - Integration completed through   57 Apr 13   0: 0: 0
+2018-01-22 23:49:27,004 - gfdl - DEBUG - Integration completed through   57 Apr 14   0: 0: 0
+2018-01-22 23:52:05,568 - gfdl - DEBUG - Integration completed through   57 Apr 15   0: 0: 0
+2018-01-22 23:54:41,833 - gfdl - DEBUG - Integration completed through   57 Apr 16   0: 0: 0
+2018-01-22 23:57:38,818 - gfdl - DEBUG - Integration completed through   57 Apr 17   0: 0: 0
+2018-01-23 00:00:37,748 - gfdl - DEBUG - Integration completed through   57 Apr 18   0: 0: 0
+2018-01-23 00:03:07,317 - gfdl - DEBUG - Integration completed through   57 Apr 19   0: 0: 0
+2018-01-23 00:05:41,496 - gfdl - DEBUG - Integration completed through   57 Apr 20   0: 0: 0
+2018-01-23 00:08:16,150 - gfdl - DEBUG - Integration completed through   57 Apr 21   0: 0: 0
+2018-01-23 00:10:51,190 - gfdl - DEBUG - Integration completed through   57 Apr 22   0: 0: 0
+2018-01-23 00:13:31,463 - gfdl - DEBUG - Integration completed through   57 Apr 23   0: 0: 0
+2018-01-23 00:16:05,074 - gfdl - DEBUG - Integration completed through   57 Apr 24   0: 0: 0
+2018-01-23 00:18:41,947 - gfdl - DEBUG - Integration completed through   57 Apr 25   0: 0: 0
+2018-01-23 00:21:17,441 - gfdl - DEBUG - Integration completed through   57 Apr 26   0: 0: 0
+2018-01-23 00:23:57,263 - gfdl - DEBUG - Integration completed through   57 Apr 27   0: 0: 0
+2018-01-23 00:26:48,434 - gfdl - DEBUG - Integration completed through   57 Apr 28   0: 0: 0
+2018-01-23 00:29:52,682 - gfdl - DEBUG - Integration completed through   57 Apr 29   0: 0: 0
+2018-01-23 00:32:48,896 - gfdl - DEBUG - Integration completed through   57 Apr 30   0: 0: 0
+2018-01-23 00:35:34,696 - gfdl - DEBUG - Integration completed through   57 May  1   0: 0: 0
+2018-01-23 00:38:31,658 - gfdl - DEBUG - Integration completed through   57 May  2   0: 0: 0
+2018-01-23 00:41:04,802 - gfdl - DEBUG - Integration completed through   57 May  3   0: 0: 0
+2018-01-23 00:43:38,438 - gfdl - DEBUG - Integration completed through   57 May  4   0: 0: 0
+2018-01-23 00:46:15,957 - gfdl - DEBUG - Integration completed through   57 May  5   0: 0: 0
+2018-01-23 00:49:03,828 - gfdl - DEBUG - Integration completed through   57 May  6   0: 0: 0
+2018-01-23 00:51:56,484 - gfdl - DEBUG - Integration completed through   57 May  7   0: 0: 0
+2018-01-23 00:54:53,068 - gfdl - DEBUG - Integration completed through   57 May  8   0: 0: 0
+2018-01-23 00:57:58,017 - gfdl - DEBUG - Integration completed through   57 May  9   0: 0: 0
+2018-01-23 01:01:03,156 - gfdl - DEBUG - Integration completed through   57 May 10   0: 0: 0
+2018-01-23 01:04:07,829 - gfdl - DEBUG - Integration completed through   57 May 11   0: 0: 0
+2018-01-23 01:06:44,165 - gfdl - DEBUG - Integration completed through   57 May 12   0: 0: 0
+2018-01-23 01:09:33,115 - gfdl - DEBUG - Integration completed through   57 May 13   0: 0: 0
+2018-01-23 01:12:28,876 - gfdl - DEBUG - Integration completed through   57 May 14   0: 0: 0
+2018-01-23 01:15:27,491 - gfdl - DEBUG - Integration completed through   57 May 15   0: 0: 0
+2018-01-23 01:18:23,034 - gfdl - DEBUG - Integration completed through   57 May 16   0: 0: 0
+2018-01-23 01:21:10,204 - gfdl - DEBUG - Integration completed through   57 May 17   0: 0: 0
+2018-01-23 01:23:58,883 - gfdl - DEBUG - Integration completed through   57 May 18   0: 0: 0
+2018-01-23 01:26:52,056 - gfdl - DEBUG - Integration completed through   57 May 19   0: 0: 0
+2018-01-23 01:29:33,408 - gfdl - DEBUG - Integration completed through   57 May 20   0: 0: 0
+2018-01-23 01:32:16,633 - gfdl - DEBUG - Integration completed through   57 May 21   0: 0: 0
+2018-01-23 01:34:59,384 - gfdl - DEBUG - Integration completed through   57 May 22   0: 0: 0
+2018-01-23 01:38:01,980 - gfdl - DEBUG - Integration completed through   57 May 23   0: 0: 0
+2018-01-23 01:41:02,897 - gfdl - DEBUG - Integration completed through   57 May 24   0: 0: 0
+2018-01-23 01:43:39,058 - gfdl - DEBUG - Integration completed through   57 May 25   0: 0: 0
+2018-01-23 01:46:31,317 - gfdl - DEBUG - Integration completed through   57 May 26   0: 0: 0
+2018-01-23 01:49:21,841 - gfdl - DEBUG - Integration completed through   57 May 27   0: 0: 0
+2018-01-23 01:52:05,751 - gfdl - DEBUG - Integration completed through   57 May 28   0: 0: 0
+2018-01-23 01:54:41,247 - gfdl - DEBUG - Integration completed through   57 May 29   0: 0: 0
+2018-01-23 01:57:31,358 - gfdl - DEBUG - Integration completed through   57 May 30   0: 0: 0
+2018-01-23 02:00:18,581 - gfdl - DEBUG - Integration completed through   57 Jun  1   0: 0: 0
+2018-01-23 02:03:10,828 - gfdl - DEBUG - Integration completed through   57 Jun  2   0: 0: 0
+2018-01-23 02:06:02,493 - gfdl - DEBUG - Integration completed through   57 Jun  3   0: 0: 0
+2018-01-23 02:08:56,185 - gfdl - DEBUG - Integration completed through   57 Jun  4   0: 0: 0
+2018-01-23 02:11:49,195 - gfdl - DEBUG - Integration completed through   57 Jun  5   0: 0: 0
+2018-01-23 02:14:45,204 - gfdl - DEBUG - Integration completed through   57 Jun  6   0: 0: 0
+2018-01-23 02:17:42,696 - gfdl - DEBUG - Integration completed through   57 Jun  7   0: 0: 0
+2018-01-23 02:20:43,874 - gfdl - DEBUG - Integration completed through   57 Jun  8   0: 0: 0
+2018-01-23 02:23:37,043 - gfdl - DEBUG - Integration completed through   57 Jun  9   0: 0: 0
+2018-01-23 02:26:40,531 - gfdl - DEBUG - Integration completed through   57 Jun 10   0: 0: 0
+2018-01-23 02:29:40,479 - gfdl - DEBUG - Integration completed through   57 Jun 11   0: 0: 0
+2018-01-23 02:32:40,466 - gfdl - DEBUG - Integration completed through   57 Jun 12   0: 0: 0
+2018-01-23 02:35:32,899 - gfdl - DEBUG - Integration completed through   57 Jun 13   0: 0: 0
+2018-01-23 02:38:16,802 - gfdl - DEBUG - Integration completed through   57 Jun 14   0: 0: 0
+2018-01-23 02:40:53,787 - gfdl - DEBUG - Integration completed through   57 Jun 15   0: 0: 0
+2018-01-23 02:43:46,234 - gfdl - DEBUG - Integration completed through   57 Jun 16   0: 0: 0
+2018-01-23 02:46:23,321 - gfdl - DEBUG - Integration completed through   57 Jun 17   0: 0: 0
+2018-01-23 02:49:21,590 - gfdl - DEBUG - Integration completed through   57 Jun 18   0: 0: 0
+2018-01-23 02:52:14,070 - gfdl - DEBUG - Integration completed through   57 Jun 19   0: 0: 0
+2018-01-23 02:55:14,761 - gfdl - DEBUG - Integration completed through   57 Jun 20   0: 0: 0
+2018-01-23 02:58:15,084 - gfdl - DEBUG - Integration completed through   57 Jun 21   0: 0: 0
+2018-01-23 03:01:01,492 - gfdl - DEBUG - Integration completed through   57 Jun 22   0: 0: 0
+2018-01-23 03:03:49,008 - gfdl - DEBUG - Integration completed through   57 Jun 23   0: 0: 0
+2018-01-23 03:06:34,277 - gfdl - DEBUG - Integration completed through   57 Jun 24   0: 0: 0
+2018-01-23 03:09:08,686 - gfdl - DEBUG - Integration completed through   57 Jun 25   0: 0: 0
+2018-01-23 03:11:45,331 - gfdl - DEBUG - Integration completed through   57 Jun 26   0: 0: 0
+2018-01-23 03:14:43,614 - gfdl - DEBUG - Integration completed through   57 Jun 27   0: 0: 0
+2018-01-23 03:17:32,499 - gfdl - DEBUG - Integration completed through   57 Jun 28   0: 0: 0
+2018-01-23 03:20:08,636 - gfdl - DEBUG - Integration completed through   57 Jun 29   0: 0: 0
+2018-01-23 03:22:56,620 - gfdl - DEBUG - Integration completed through   57 Jun 30   0: 0: 0
+2018-01-23 03:25:40,511 - gfdl - DEBUG - Integration completed through   57 Jul  1   0: 0: 0
+2018-01-23 03:28:29,083 - gfdl - DEBUG - Integration completed through   57 Jul  2   0: 0: 0
+2018-01-23 03:31:22,851 - gfdl - DEBUG - Integration completed through   57 Jul  3   0: 0: 0
+2018-01-23 03:34:18,832 - gfdl - DEBUG - Integration completed through   57 Jul  4   0: 0: 0
+2018-01-23 03:37:19,749 - gfdl - DEBUG - Integration completed through   57 Jul  5   0: 0: 0
+2018-01-23 03:40:19,566 - gfdl - DEBUG - Integration completed through   57 Jul  6   0: 0: 0
+2018-01-23 03:43:23,271 - gfdl - DEBUG - Integration completed through   57 Jul  7   0: 0: 0
+2018-01-23 03:46:24,306 - gfdl - DEBUG - Integration completed through   57 Jul  8   0: 0: 0
+2018-01-23 03:49:00,993 - gfdl - DEBUG - Integration completed through   57 Jul  9   0: 0: 0
+2018-01-23 03:51:45,108 - gfdl - DEBUG - Integration completed through   57 Jul 10   0: 0: 0
+2018-01-23 03:54:25,012 - gfdl - DEBUG - Integration completed through   57 Jul 11   0: 0: 0
+2018-01-23 03:57:23,202 - gfdl - DEBUG - Integration completed through   57 Jul 12   0: 0: 0
+2018-01-23 04:00:23,585 - gfdl - DEBUG - Integration completed through   57 Jul 13   0: 0: 0
+2018-01-23 04:03:10,286 - gfdl - DEBUG - Integration completed through   57 Jul 14   0: 0: 0
+2018-01-23 04:06:05,984 - gfdl - DEBUG - Integration completed through   57 Jul 15   0: 0: 0
+2018-01-23 04:09:00,131 - gfdl - DEBUG - Integration completed through   57 Jul 16   0: 0: 0
+2018-01-23 04:11:38,891 - gfdl - DEBUG - Integration completed through   57 Jul 17   0: 0: 0
+2018-01-23 04:14:44,277 - gfdl - DEBUG - Integration completed through   57 Jul 18   0: 0: 0
+2018-01-23 04:17:31,638 - gfdl - DEBUG - Integration completed through   57 Jul 19   0: 0: 0
+2018-01-23 04:20:21,073 - gfdl - DEBUG - Integration completed through   57 Jul 20   0: 0: 0
+2018-01-23 04:23:09,078 - gfdl - DEBUG - Integration completed through   57 Jul 21   0: 0: 0
+2018-01-23 04:25:47,328 - gfdl - DEBUG - Integration completed through   57 Jul 22   0: 0: 0
+2018-01-23 04:28:34,812 - gfdl - DEBUG - Integration completed through   57 Jul 23   0: 0: 0
+2018-01-23 04:31:27,951 - gfdl - DEBUG - Integration completed through   57 Jul 24   0: 0: 0
+2018-01-23 04:34:28,739 - gfdl - DEBUG - Integration completed through   57 Jul 25   0: 0: 0
+2018-01-23 04:37:35,536 - gfdl - DEBUG - Integration completed through   57 Jul 26   0: 0: 0
+2018-01-23 04:40:18,698 - gfdl - DEBUG - Integration completed through   57 Jul 27   0: 0: 0
+2018-01-23 04:43:19,494 - gfdl - DEBUG - Integration completed through   57 Jul 28   0: 0: 0
+2018-01-23 04:46:14,701 - gfdl - DEBUG - Integration completed through   57 Jul 29   0: 0: 0
+2018-01-23 04:49:14,578 - gfdl - DEBUG - Integration completed through   57 Jul 30   0: 0: 0
+2018-01-23 04:52:06,314 - gfdl - DEBUG - Integration completed through   57 Aug  1   0: 0: 0
+2018-01-23 04:54:38,304 - gfdl - DEBUG - Integration completed through   57 Aug  2   0: 0: 0
+2018-01-23 04:57:17,280 - gfdl - DEBUG - Integration completed through   57 Aug  3   0: 0: 0
+2018-01-23 04:59:53,146 - gfdl - DEBUG - Integration completed through   57 Aug  4   0: 0: 0
+2018-01-23 05:02:25,771 - gfdl - DEBUG - Integration completed through   57 Aug  5   0: 0: 0
+2018-01-23 05:05:18,656 - gfdl - DEBUG - Integration completed through   57 Aug  6   0: 0: 0
+2018-01-23 05:08:20,160 - gfdl - DEBUG - Integration completed through   57 Aug  7   0: 0: 0
+2018-01-23 05:11:21,740 - gfdl - DEBUG - Integration completed through   57 Aug  8   0: 0: 0
+2018-01-23 05:14:22,573 - gfdl - DEBUG - Integration completed through   57 Aug  9   0: 0: 0
+2018-01-23 05:17:23,695 - gfdl - DEBUG - Integration completed through   57 Aug 10   0: 0: 0
+2018-01-23 05:20:20,827 - gfdl - DEBUG - Integration completed through   57 Aug 11   0: 0: 0
+2018-01-23 05:23:14,164 - gfdl - DEBUG - Integration completed through   57 Aug 12   0: 0: 0
+2018-01-23 05:26:16,698 - gfdl - DEBUG - Integration completed through   57 Aug 13   0: 0: 0
+2018-01-23 05:29:19,307 - gfdl - DEBUG - Integration completed through   57 Aug 14   0: 0: 0
+2018-01-23 05:32:17,796 - gfdl - DEBUG - Integration completed through   57 Aug 15   0: 0: 0
+2018-01-23 05:35:10,237 - gfdl - DEBUG - Integration completed through   57 Aug 16   0: 0: 0
+2018-01-23 05:37:51,085 - gfdl - DEBUG - Integration completed through   57 Aug 17   0: 0: 0
+2018-01-23 05:40:42,681 - gfdl - DEBUG - Integration completed through   57 Aug 18   0: 0: 0
+2018-01-23 05:43:22,945 - gfdl - DEBUG - Integration completed through   57 Aug 19   0: 0: 0
+2018-01-23 05:46:04,140 - gfdl - DEBUG - Integration completed through   57 Aug 20   0: 0: 0
+2018-01-23 05:48:38,534 - gfdl - DEBUG - Integration completed through   57 Aug 21   0: 0: 0
+2018-01-23 05:51:14,795 - gfdl - DEBUG - Integration completed through   57 Aug 22   0: 0: 0
+2018-01-23 05:54:06,940 - gfdl - DEBUG - Integration completed through   57 Aug 23   0: 0: 0
+2018-01-23 05:56:57,386 - gfdl - DEBUG - Integration completed through   57 Aug 24   0: 0: 0
+2018-01-23 05:59:31,224 - gfdl - DEBUG - Integration completed through   57 Aug 25   0: 0: 0
+2018-01-23 06:02:05,252 - gfdl - DEBUG - Integration completed through   57 Aug 26   0: 0: 0
+2018-01-23 06:04:37,835 - gfdl - DEBUG - Integration completed through   57 Aug 27   0: 0: 0
+2018-01-23 06:07:13,524 - gfdl - DEBUG - Integration completed through   57 Aug 28   0: 0: 0
+2018-01-23 06:09:48,906 - gfdl - DEBUG - Integration completed through   57 Aug 29   0: 0: 0
+2018-01-23 06:12:20,089 - gfdl - DEBUG - Integration completed through   57 Aug 30   0: 0: 0
+2018-01-23 06:14:52,042 - gfdl - DEBUG - Integration completed through   57 Sep  1   0: 0: 0
+2018-01-23 06:17:24,053 - gfdl - DEBUG - Integration completed through   57 Sep  2   0: 0: 0
+2018-01-23 06:19:57,616 - gfdl - DEBUG - Integration completed through   57 Sep  3   0: 0: 0
+2018-01-23 06:22:36,903 - gfdl - DEBUG - Integration completed through   57 Sep  4   0: 0: 0
+2018-01-23 06:25:10,559 - gfdl - DEBUG - Integration completed through   57 Sep  5   0: 0: 0
+2018-01-23 06:27:41,866 - gfdl - DEBUG - Integration completed through   57 Sep  6   0: 0: 0
+2018-01-23 06:30:19,863 - gfdl - DEBUG - Integration completed through   57 Sep  7   0: 0: 0
+2018-01-23 06:32:59,740 - gfdl - DEBUG - Integration completed through   57 Sep  8   0: 0: 0
+2018-01-23 06:35:38,966 - gfdl - DEBUG - Integration completed through   57 Sep  9   0: 0: 0
+2018-01-23 06:38:28,664 - gfdl - DEBUG - Integration completed through   57 Sep 10   0: 0: 0
+2018-01-23 06:41:00,046 - gfdl - DEBUG - Integration completed through   57 Sep 11   0: 0: 0
+2018-01-23 06:43:35,558 - gfdl - DEBUG - Integration completed through   57 Sep 12   0: 0: 0
+2018-01-23 06:46:11,294 - gfdl - DEBUG - Integration completed through   57 Sep 13   0: 0: 0
+2018-01-23 06:48:44,903 - gfdl - DEBUG - Integration completed through   57 Sep 14   0: 0: 0
+2018-01-23 06:51:15,452 - gfdl - DEBUG - Integration completed through   57 Sep 15   0: 0: 0
+2018-01-23 06:53:56,405 - gfdl - DEBUG - Integration completed through   57 Sep 16   0: 0: 0
+2018-01-23 06:56:27,006 - gfdl - DEBUG - Integration completed through   57 Sep 17   0: 0: 0
+2018-01-23 06:58:59,123 - gfdl - DEBUG - Integration completed through   57 Sep 18   0: 0: 0
+2018-01-23 07:01:29,595 - gfdl - DEBUG - Integration completed through   57 Sep 19   0: 0: 0
+2018-01-23 07:04:02,461 - gfdl - DEBUG - Integration completed through   57 Sep 20   0: 0: 0
+2018-01-23 07:06:33,911 - gfdl - DEBUG - Integration completed through   57 Sep 21   0: 0: 0
+2018-01-23 07:09:07,315 - gfdl - DEBUG - Integration completed through   57 Sep 22   0: 0: 0
+2018-01-23 07:11:49,768 - gfdl - DEBUG - Integration completed through   57 Sep 23   0: 0: 0
+2018-01-23 07:14:24,627 - gfdl - DEBUG - Integration completed through   57 Sep 24   0: 0: 0
+2018-01-23 07:16:56,417 - gfdl - DEBUG - Integration completed through   57 Sep 25   0: 0: 0
+2018-01-23 07:19:27,575 - gfdl - DEBUG - Integration completed through   57 Sep 26   0: 0: 0
+2018-01-23 07:22:04,729 - gfdl - DEBUG - Integration completed through   57 Sep 27   0: 0: 0
+2018-01-23 07:24:34,702 - gfdl - DEBUG - Integration completed through   57 Sep 28   0: 0: 0
+2018-01-23 07:27:07,354 - gfdl - DEBUG - Integration completed through   57 Sep 29   0: 0: 0
+2018-01-23 07:29:36,123 - gfdl - DEBUG - Integration completed through   57 Sep 30   0: 0: 0
+2018-01-23 07:32:04,488 - gfdl - DEBUG - Integration completed through   57 Oct  1   0: 0: 0
+2018-01-23 07:34:31,926 - gfdl - DEBUG - Integration completed through   57 Oct  2   0: 0: 0
+2018-01-23 07:36:59,469 - gfdl - DEBUG - Integration completed through   57 Oct  3   0: 0: 0
+2018-01-23 07:39:27,360 - gfdl - DEBUG - Integration completed through   57 Oct  4   0: 0: 0
+2018-01-23 07:42:04,193 - gfdl - DEBUG - Integration completed through   57 Oct  5   0: 0: 0
+2018-01-23 07:44:44,008 - gfdl - DEBUG - Integration completed through   57 Oct  6   0: 0: 0
+2018-01-23 07:47:16,054 - gfdl - DEBUG - Integration completed through   57 Oct  7   0: 0: 0
+2018-01-23 07:49:46,283 - gfdl - DEBUG - Integration completed through   57 Oct  8   0: 0: 0
+2018-01-23 07:52:15,291 - gfdl - DEBUG - Integration completed through   57 Oct  9   0: 0: 0
+2018-01-23 07:54:46,409 - gfdl - DEBUG - Integration completed through   57 Oct 10   0: 0: 0
+2018-01-23 07:57:17,322 - gfdl - DEBUG - Integration completed through   57 Oct 11   0: 0: 0
+2018-01-23 07:59:49,693 - gfdl - DEBUG - Integration completed through   57 Oct 12   0: 0: 0
+2018-01-23 08:02:22,203 - gfdl - DEBUG - Integration completed through   57 Oct 13   0: 0: 0
+2018-01-23 08:05:08,559 - gfdl - DEBUG - Integration completed through   57 Oct 14   0: 0: 0
+2018-01-23 08:07:37,465 - gfdl - DEBUG - Integration completed through   57 Oct 15   0: 0: 0
+2018-01-23 08:10:14,346 - gfdl - DEBUG - Integration completed through   57 Oct 16   0: 0: 0
+2018-01-23 08:12:47,189 - gfdl - DEBUG - Integration completed through   57 Oct 17   0: 0: 0
+2018-01-23 08:15:21,900 - gfdl - DEBUG - Integration completed through   57 Oct 18   0: 0: 0
+2018-01-23 08:18:05,873 - gfdl - DEBUG - Integration completed through   57 Oct 19   0: 0: 0
+2018-01-23 08:20:49,474 - gfdl - DEBUG - Integration completed through   57 Oct 20   0: 0: 0
+2018-01-23 08:23:33,652 - gfdl - DEBUG - Integration completed through   57 Oct 21   0: 0: 0
+2018-01-23 08:26:33,921 - gfdl - DEBUG - Integration completed through   57 Oct 22   0: 0: 0
+2018-01-23 08:29:16,823 - gfdl - DEBUG - Integration completed through   57 Oct 23   0: 0: 0
+2018-01-23 08:32:09,188 - gfdl - DEBUG - Integration completed through   57 Oct 24   0: 0: 0
+2018-01-23 08:34:53,521 - gfdl - DEBUG - Integration completed through   57 Oct 25   0: 0: 0
+2018-01-23 08:37:41,525 - gfdl - DEBUG - Integration completed through   57 Oct 26   0: 0: 0
+2018-01-23 08:40:46,850 - gfdl - DEBUG - Integration completed through   57 Oct 27   0: 0: 0
+2018-01-23 08:43:22,395 - gfdl - DEBUG - Integration completed through   57 Oct 28   0: 0: 0
+2018-01-23 08:45:53,926 - gfdl - DEBUG - Integration completed through   57 Oct 29   0: 0: 0
+2018-01-23 08:48:30,377 - gfdl - DEBUG - Integration completed through   57 Oct 30   0: 0: 0
+2018-01-23 08:51:14,456 - gfdl - DEBUG - Integration completed through   57 Nov  1   0: 0: 0
+2018-01-23 08:53:51,099 - gfdl - DEBUG - Integration completed through   57 Nov  2   0: 0: 0
+2018-01-23 08:56:28,379 - gfdl - DEBUG - Integration completed through   57 Nov  3   0: 0: 0
+2018-01-23 08:59:17,012 - gfdl - DEBUG - Integration completed through   57 Nov  4   0: 0: 0
+2018-01-23 09:02:01,954 - gfdl - DEBUG - Integration completed through   57 Nov  5   0: 0: 0
+2018-01-23 09:04:43,066 - gfdl - DEBUG - Integration completed through   57 Nov  6   0: 0: 0
+2018-01-23 09:07:34,960 - gfdl - DEBUG - Integration completed through   57 Nov  7   0: 0: 0
+2018-01-23 09:10:26,787 - gfdl - DEBUG - Integration completed through   57 Nov  8   0: 0: 0
+2018-01-23 09:13:17,814 - gfdl - DEBUG - Integration completed through   57 Nov  9   0: 0: 0
+2018-01-23 09:16:04,517 - gfdl - DEBUG - Integration completed through   57 Nov 10   0: 0: 0
+2018-01-23 09:18:58,841 - gfdl - DEBUG - Integration completed through   57 Nov 11   0: 0: 0
+2018-01-23 09:21:44,875 - gfdl - DEBUG - Integration completed through   57 Nov 12   0: 0: 0
+2018-01-23 09:24:43,667 - gfdl - DEBUG - Integration completed through   57 Nov 13   0: 0: 0
+2018-01-23 09:27:48,092 - gfdl - DEBUG - Integration completed through   57 Nov 14   0: 0: 0
+2018-01-23 09:30:46,775 - gfdl - DEBUG - Integration completed through   57 Nov 15   0: 0: 0
+2018-01-23 09:33:43,494 - gfdl - DEBUG - Integration completed through   57 Nov 16   0: 0: 0
+2018-01-23 09:36:35,596 - gfdl - DEBUG - Integration completed through   57 Nov 17   0: 0: 0
+2018-01-23 09:39:06,234 - gfdl - DEBUG - Integration completed through   57 Nov 18   0: 0: 0
+2018-01-23 09:41:48,667 - gfdl - DEBUG - Integration completed through   57 Nov 19   0: 0: 0
+2018-01-23 09:44:34,976 - gfdl - DEBUG - Integration completed through   57 Nov 20   0: 0: 0
+2018-01-23 09:47:17,103 - gfdl - DEBUG - Integration completed through   57 Nov 21   0: 0: 0
+2018-01-23 09:49:58,151 - gfdl - DEBUG - Integration completed through   57 Nov 22   0: 0: 0
+2018-01-23 09:52:38,762 - gfdl - DEBUG - Integration completed through   57 Nov 23   0: 0: 0
+2018-01-23 09:55:14,832 - gfdl - DEBUG - Integration completed through   57 Nov 24   0: 0: 0
+2018-01-23 09:58:16,992 - gfdl - DEBUG - Integration completed through   57 Nov 25   0: 0: 0
+2018-01-23 10:01:20,379 - gfdl - DEBUG - Integration completed through   57 Nov 26   0: 0: 0
+2018-01-23 10:04:24,605 - gfdl - DEBUG - Integration completed through   57 Nov 27   0: 0: 0
+2018-01-23 10:07:29,054 - gfdl - DEBUG - Integration completed through   57 Nov 28   0: 0: 0
+2018-01-23 10:10:26,059 - gfdl - DEBUG - Integration completed through   57 Nov 29   0: 0: 0
+2018-01-23 10:13:14,733 - gfdl - DEBUG - Integration completed through   57 Nov 30   0: 0: 0
+2018-01-23 10:16:02,625 - gfdl - DEBUG - Integration completed through   57 Dec  1   0: 0: 0
+2018-01-23 10:18:44,612 - gfdl - DEBUG - Integration completed through   57 Dec  2   0: 0: 0
+2018-01-23 10:21:23,869 - gfdl - DEBUG - Integration completed through   57 Dec  3   0: 0: 0
+2018-01-23 10:24:02,557 - gfdl - DEBUG - Integration completed through   57 Dec  4   0: 0: 0
+2018-01-23 10:26:41,540 - gfdl - DEBUG - Integration completed through   57 Dec  5   0: 0: 0
+2018-01-23 10:29:13,602 - gfdl - DEBUG - Integration completed through   57 Dec  6   0: 0: 0
+2018-01-23 10:32:01,379 - gfdl - DEBUG - Integration completed through   57 Dec  7   0: 0: 0
+2018-01-23 10:35:05,114 - gfdl - DEBUG - Integration completed through   57 Dec  8   0: 0: 0
+2018-01-23 10:38:08,654 - gfdl - DEBUG - Integration completed through   57 Dec  9   0: 0: 0
+2018-01-23 10:40:51,423 - gfdl - DEBUG - Integration completed through   57 Dec 10   0: 0: 0
+2018-01-23 10:43:35,146 - gfdl - DEBUG - Integration completed through   57 Dec 11   0: 0: 0
+2018-01-23 10:46:38,891 - gfdl - DEBUG - Integration completed through   57 Dec 12   0: 0: 0
+2018-01-23 10:49:45,160 - gfdl - DEBUG - Integration completed through   57 Dec 13   0: 0: 0
+2018-01-23 10:52:48,959 - gfdl - DEBUG - Integration completed through   57 Dec 14   0: 0: 0
+2018-01-23 10:55:46,176 - gfdl - DEBUG - Integration completed through   57 Dec 15   0: 0: 0
+2018-01-23 10:58:35,224 - gfdl - DEBUG - Integration completed through   57 Dec 16   0: 0: 0
+2018-01-23 11:01:39,197 - gfdl - DEBUG - Integration completed through   57 Dec 17   0: 0: 0
+2018-01-23 11:04:35,683 - gfdl - DEBUG - Integration completed through   57 Dec 18   0: 0: 0
+2018-01-23 11:07:25,878 - gfdl - DEBUG - Integration completed through   57 Dec 19   0: 0: 0
+2018-01-23 11:10:30,851 - gfdl - DEBUG - Integration completed through   57 Dec 20   0: 0: 0
+2018-01-23 11:13:36,668 - gfdl - DEBUG - Integration completed through   57 Dec 21   0: 0: 0
+2018-01-23 11:16:36,255 - gfdl - DEBUG - Integration completed through   57 Dec 22   0: 0: 0
+2018-01-23 11:19:34,970 - gfdl - DEBUG - Integration completed through   57 Dec 23   0: 0: 0
+2018-01-23 11:22:28,223 - gfdl - DEBUG - Integration completed through   57 Dec 24   0: 0: 0
+2018-01-23 11:25:32,200 - gfdl - DEBUG - Integration completed through   57 Dec 25   0: 0: 0
+2018-01-23 11:28:35,487 - gfdl - DEBUG - Integration completed through   57 Dec 26   0: 0: 0
+2018-01-23 11:31:30,000 - gfdl - DEBUG - Integration completed through   57 Dec 27   0: 0: 0
+2018-01-23 11:34:21,527 - gfdl - DEBUG - Integration completed through   57 Dec 28   0: 0: 0
+2018-01-23 11:37:15,358 - gfdl - DEBUG - Integration completed through   57 Dec 29   0: 0: 0
+2018-01-23 11:40:16,310 - gfdl - DEBUG - Integration completed through   57 Dec 30   0: 0: 0
+2018-01-23 11:42:57,395 - gfdl - DEBUG - Integration completed through   58 Jan  1   0: 0: 0
+2018-01-23 11:42:57,454 - gfdl - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to    1638400.
+2018-01-23 11:42:58,059 - gfdl - DEBUG - MPP_DOMAINS_STACK high water mark=      204800
+2018-01-23 11:42:58,059 - gfdl - DEBUG - Tabulating mpp_clock statistics across     16 PEs...
+2018-01-23 11:42:58,060 - gfdl - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-01-23 11:42:58,060 - gfdl - DEBUG - Total runtime                     59035.752734  59035.752749  59035.752743      0.000005  1.000     0     0    15
+2018-01-23 11:42:58,060 - gfdl - DEBUG - MPP_STACK high water mark=           0
+2018-01-23 11:42:58,087 - gfdl - DEBUG - Month 18 complete, combining nc files
+2018-01-23 11:44:35,447 - gfdl - INFO - Run for month 18 complete
+2018-01-23 11:44:52,924 - gfdl - INFO - Saved restart file '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/restarts/res_18.cpio'
+2018-01-23 11:44:53,015 - gfdl - INFO - Could not output git commit hash
+2018-01-23 11:45:26,942 - gfdl - INFO - Emptied run directory '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/run'
+2018-01-23 11:45:26,982 - gfdl - INFO - Writing namelist to '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/run/input.nml'
+2018-01-23 11:45:26,987 - gfdl - INFO - Writing field_table to '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/run/field_table'
+2018-01-23 11:45:27,011 - gfdl - INFO - Writing diag_table to '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/run/diag_table'
+2018-01-23 11:45:27,097 - gfdl - INFO - Using restart file '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/restarts/res_18.cpio'
+2018-01-23 11:45:27,098 - gfdl - INFO - Running GFDL for month 19
+2018-01-23 11:45:27,126 - gfdl - DEBUG - loadmodules
+2018-01-23 11:45:27,234 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2018-01-23 11:45:27,236 - gfdl - DEBUG - 1) intel/16.0.2                 3) netcdf/4.3.3-intel
+2018-01-23 11:45:27,236 - gfdl - DEBUG - 2) hdf5/1.8.15                  4) openmpi/1.6.3-intel-16.0.2
+2018-01-23 11:45:27,641 - gfdl - DEBUG - atmos_model.res
+2018-01-23 11:45:29,207 - gfdl - DEBUG - atmosphere.res.nc
+2018-01-23 11:45:29,211 - gfdl - DEBUG - mixed_layer.res.nc
+2018-01-23 11:45:31,540 - gfdl - DEBUG - spectral_dynamics.res.nc
+2018-01-23 11:45:31,540 - gfdl - DEBUG - 637532 blocks
+2018-01-23 11:45:33,319 - gfdl - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-01-23 11:45:33,319 - gfdl - DEBUG - &MPP_IO_NML
+2018-01-23 11:45:33,320 - gfdl - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-01-23 11:45:33,320 - gfdl - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-01-23 11:45:33,320 - gfdl - DEBUG - IO_CLOCKS_ON    = F,
+2018-01-23 11:45:33,320 - gfdl - DEBUG - SHUFFLE =           0,
+2018-01-23 11:45:33,320 - gfdl - DEBUG - DEFLATE_LEVEL   =          -1
+2018-01-23 11:45:33,320 - gfdl - DEBUG - /
+2018-01-23 11:45:33,321 - gfdl - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-01-23 11:45:33,322 - gfdl - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-01-23 11:45:33,326 - gfdl - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-01-23 11:45:33,327 - gfdl - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-01-23 11:45:33,328 - gfdl - DEBUG - X-AXIS =  256
+2018-01-23 11:45:33,328 - gfdl - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8   8   8   8   8   8   8   8   8
+2018-01-23 11:45:33,447 - gfdl - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Betts-Miller convection scheme.
+2018-01-23 11:45:33,454 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :sst_clim_ersst.nc is a year-independent climatology file
+2018-01-23 11:45:33,523 - gfdl - DEBUG - Initializing src field : sst_clim_ersst
+2018-01-23 11:45:33,525 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :siconc_clim_eraint.nc is a year-independent climatology file
+2018-01-23 11:45:33,527 - gfdl - DEBUG - Initializing src field : siconc_clim_eraint
+2018-01-23 11:45:33,579 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :ozone.nc is a year-independent climatology file
+2018-01-23 11:45:33,598 - gfdl - DEBUG - Initializing src field : ozone
+2018-01-23 11:48:24,229 - gfdl - DEBUG - Integration completed through   58 Jan  2   0: 0: 0
+2018-01-23 11:51:00,313 - gfdl - DEBUG - Integration completed through   58 Jan  3   0: 0: 0
+2018-01-23 11:53:37,902 - gfdl - DEBUG - Integration completed through   58 Jan  4   0: 0: 0
+2018-01-23 11:56:15,776 - gfdl - DEBUG - Integration completed through   58 Jan  5   0: 0: 0
+2018-01-23 11:59:12,747 - gfdl - DEBUG - Integration completed through   58 Jan  6   0: 0: 0
+2018-01-23 12:02:00,354 - gfdl - DEBUG - Integration completed through   58 Jan  7   0: 0: 0
+2018-01-23 12:04:44,088 - gfdl - DEBUG - Integration completed through   58 Jan  8   0: 0: 0
+2018-01-23 12:07:35,068 - gfdl - DEBUG - Integration completed through   58 Jan  9   0: 0: 0
+2018-01-23 12:10:31,640 - gfdl - DEBUG - Integration completed through   58 Jan 10   0: 0: 0
+2018-01-23 12:13:37,194 - gfdl - DEBUG - Integration completed through   58 Jan 11   0: 0: 0
+2018-01-23 12:16:41,569 - gfdl - DEBUG - Integration completed through   58 Jan 12   0: 0: 0
+2018-01-23 12:19:24,221 - gfdl - DEBUG - Integration completed through   58 Jan 13   0: 0: 0
+2018-01-23 12:22:31,363 - gfdl - DEBUG - Integration completed through   58 Jan 14   0: 0: 0
+2018-01-23 12:25:25,202 - gfdl - DEBUG - Integration completed through   58 Jan 15   0: 0: 0
+2018-01-23 12:28:23,440 - gfdl - DEBUG - Integration completed through   58 Jan 16   0: 0: 0
+2018-01-23 12:31:18,119 - gfdl - DEBUG - Integration completed through   58 Jan 17   0: 0: 0
+2018-01-23 12:34:12,299 - gfdl - DEBUG - Integration completed through   58 Jan 18   0: 0: 0
+2018-01-23 12:37:17,742 - gfdl - DEBUG - Integration completed through   58 Jan 19   0: 0: 0
+2018-01-23 12:40:25,300 - gfdl - DEBUG - Integration completed through   58 Jan 20   0: 0: 0
+2018-01-23 12:43:15,181 - gfdl - DEBUG - Integration completed through   58 Jan 21   0: 0: 0
+2018-01-23 12:46:10,968 - gfdl - DEBUG - Integration completed through   58 Jan 22   0: 0: 0
+2018-01-23 12:49:05,782 - gfdl - DEBUG - Integration completed through   58 Jan 23   0: 0: 0
+2018-01-23 12:52:02,128 - gfdl - DEBUG - Integration completed through   58 Jan 24   0: 0: 0
+2018-01-23 12:54:41,838 - gfdl - DEBUG - Integration completed through   58 Jan 25   0: 0: 0
+2018-01-23 12:57:33,690 - gfdl - DEBUG - Integration completed through   58 Jan 26   0: 0: 0
+2018-01-23 13:00:13,256 - gfdl - DEBUG - Integration completed through   58 Jan 27   0: 0: 0
+2018-01-23 13:02:59,030 - gfdl - DEBUG - Integration completed through   58 Jan 28   0: 0: 0
+2018-01-23 13:05:46,880 - gfdl - DEBUG - Integration completed through   58 Jan 29   0: 0: 0
+2018-01-23 13:08:37,835 - gfdl - DEBUG - Integration completed through   58 Jan 30   0: 0: 0
+2018-01-23 13:11:39,277 - gfdl - DEBUG - Integration completed through   58 Feb  1   0: 0: 0
+2018-01-23 13:14:37,915 - gfdl - DEBUG - Integration completed through   58 Feb  2   0: 0: 0
+2018-01-23 13:17:34,417 - gfdl - DEBUG - Integration completed through   58 Feb  3   0: 0: 0
+2018-01-23 13:20:40,090 - gfdl - DEBUG - Integration completed through   58 Feb  4   0: 0: 0
+2018-01-23 13:23:28,988 - gfdl - DEBUG - Integration completed through   58 Feb  5   0: 0: 0
+2018-01-23 13:26:16,445 - gfdl - DEBUG - Integration completed through   58 Feb  6   0: 0: 0
+2018-01-23 13:29:01,614 - gfdl - DEBUG - Integration completed through   58 Feb  7   0: 0: 0
+2018-01-23 13:31:54,866 - gfdl - DEBUG - Integration completed through   58 Feb  8   0: 0: 0
+2018-01-23 13:34:55,599 - gfdl - DEBUG - Integration completed through   58 Feb  9   0: 0: 0
+2018-01-23 13:37:42,127 - gfdl - DEBUG - Integration completed through   58 Feb 10   0: 0: 0
+2018-01-23 13:40:43,130 - gfdl - DEBUG - Integration completed through   58 Feb 11   0: 0: 0
+2018-01-23 13:43:31,308 - gfdl - DEBUG - Integration completed through   58 Feb 12   0: 0: 0
+2018-01-23 13:46:18,185 - gfdl - DEBUG - Integration completed through   58 Feb 13   0: 0: 0
+2018-01-23 13:48:52,797 - gfdl - DEBUG - Integration completed through   58 Feb 14   0: 0: 0
+2018-01-23 13:51:31,438 - gfdl - DEBUG - Integration completed through   58 Feb 15   0: 0: 0
+2018-01-23 13:54:11,457 - gfdl - DEBUG - Integration completed through   58 Feb 16   0: 0: 0
+2018-01-23 13:56:52,040 - gfdl - DEBUG - Integration completed through   58 Feb 17   0: 0: 0
+2018-01-23 13:59:51,373 - gfdl - DEBUG - Integration completed through   58 Feb 18   0: 0: 0
+2018-01-23 14:02:52,916 - gfdl - DEBUG - Integration completed through   58 Feb 19   0: 0: 0
+2018-01-23 14:05:43,849 - gfdl - DEBUG - Integration completed through   58 Feb 20   0: 0: 0
+2018-01-23 14:08:23,014 - gfdl - DEBUG - Integration completed through   58 Feb 21   0: 0: 0
+2018-01-23 14:10:59,150 - gfdl - DEBUG - Integration completed through   58 Feb 22   0: 0: 0
+2018-01-23 14:13:41,368 - gfdl - DEBUG - Integration completed through   58 Feb 23   0: 0: 0
+2018-01-23 14:16:30,381 - gfdl - DEBUG - Integration completed through   58 Feb 24   0: 0: 0
+2018-01-23 14:19:28,822 - gfdl - DEBUG - Integration completed through   58 Feb 25   0: 0: 0
+2018-01-23 14:22:24,612 - gfdl - DEBUG - Integration completed through   58 Feb 26   0: 0: 0
+2018-01-23 14:25:03,199 - gfdl - DEBUG - Integration completed through   58 Feb 27   0: 0: 0
+2018-01-23 14:27:50,653 - gfdl - DEBUG - Integration completed through   58 Feb 28   0: 0: 0
+2018-01-23 14:30:48,402 - gfdl - DEBUG - Integration completed through   58 Feb 29   0: 0: 0
+2018-01-23 14:33:27,897 - gfdl - DEBUG - Integration completed through   58 Feb 30   0: 0: 0
+2018-01-23 14:36:20,620 - gfdl - DEBUG - Integration completed through   58 Mar  1   0: 0: 0
+2018-01-23 14:39:04,264 - gfdl - DEBUG - Integration completed through   58 Mar  2   0: 0: 0
+2018-01-23 14:41:50,525 - gfdl - DEBUG - Integration completed through   58 Mar  3   0: 0: 0
+2018-01-23 14:44:34,380 - gfdl - DEBUG - Integration completed through   58 Mar  4   0: 0: 0
+2018-01-23 14:47:11,527 - gfdl - DEBUG - Integration completed through   58 Mar  5   0: 0: 0
+2018-01-23 14:49:51,278 - gfdl - DEBUG - Integration completed through   58 Mar  6   0: 0: 0
+2018-01-23 14:52:40,969 - gfdl - DEBUG - Integration completed through   58 Mar  7   0: 0: 0
+2018-01-23 14:55:31,153 - gfdl - DEBUG - Integration completed through   58 Mar  8   0: 0: 0
+2018-01-23 14:58:23,296 - gfdl - DEBUG - Integration completed through   58 Mar  9   0: 0: 0
+2018-01-23 15:01:11,838 - gfdl - DEBUG - Integration completed through   58 Mar 10   0: 0: 0
+2018-01-23 15:03:47,050 - gfdl - DEBUG - Integration completed through   58 Mar 11   0: 0: 0
+2018-01-23 15:06:31,005 - gfdl - DEBUG - Integration completed through   58 Mar 12   0: 0: 0
+2018-01-23 15:09:26,108 - gfdl - DEBUG - Integration completed through   58 Mar 13   0: 0: 0
+2018-01-23 15:12:24,142 - gfdl - DEBUG - Integration completed through   58 Mar 14   0: 0: 0
+2018-01-23 15:14:58,242 - gfdl - DEBUG - Integration completed through   58 Mar 15   0: 0: 0
+2018-01-23 15:17:34,309 - gfdl - DEBUG - Integration completed through   58 Mar 16   0: 0: 0
+2018-01-23 15:20:14,598 - gfdl - DEBUG - Integration completed through   58 Mar 17   0: 0: 0
+2018-01-23 15:22:59,153 - gfdl - DEBUG - Integration completed through   58 Mar 18   0: 0: 0
+2018-01-23 15:25:30,840 - gfdl - DEBUG - Integration completed through   58 Mar 19   0: 0: 0
+2018-01-23 15:28:03,471 - gfdl - DEBUG - Integration completed through   58 Mar 20   0: 0: 0
+2018-01-23 15:30:45,333 - gfdl - DEBUG - Integration completed through   58 Mar 21   0: 0: 0
+2018-01-23 15:33:35,557 - gfdl - DEBUG - Integration completed through   58 Mar 22   0: 0: 0
+2018-01-23 15:36:14,909 - gfdl - DEBUG - Integration completed through   58 Mar 23   0: 0: 0
+2018-01-23 15:38:47,206 - gfdl - DEBUG - Integration completed through   58 Mar 24   0: 0: 0
+2018-01-23 15:41:22,584 - gfdl - DEBUG - Integration completed through   58 Mar 25   0: 0: 0
+2018-01-23 15:43:54,794 - gfdl - DEBUG - Integration completed through   58 Mar 26   0: 0: 0
+2018-01-23 15:46:25,930 - gfdl - DEBUG - Integration completed through   58 Mar 27   0: 0: 0
+2018-01-23 15:49:04,043 - gfdl - DEBUG - Integration completed through   58 Mar 28   0: 0: 0
+2018-01-23 15:51:38,102 - gfdl - DEBUG - Integration completed through   58 Mar 29   0: 0: 0
+2018-01-23 15:54:11,043 - gfdl - DEBUG - Integration completed through   58 Mar 30   0: 0: 0
+2018-01-23 15:56:43,321 - gfdl - DEBUG - Integration completed through   58 Apr  1   0: 0: 0
+2018-01-23 15:59:15,153 - gfdl - DEBUG - Integration completed through   58 Apr  2   0: 0: 0
+2018-01-23 16:01:46,616 - gfdl - DEBUG - Integration completed through   58 Apr  3   0: 0: 0
+2018-01-23 16:04:04,398 - gfdl - DEBUG - Integration completed through   58 Apr  4   0: 0: 0
+2018-01-23 16:06:42,364 - gfdl - DEBUG - Integration completed through   58 Apr  5   0: 0: 0
+2018-01-23 16:09:24,185 - gfdl - DEBUG - Integration completed through   58 Apr  6   0: 0: 0
+2018-01-23 16:11:55,848 - gfdl - DEBUG - Integration completed through   58 Apr  7   0: 0: 0
+2018-01-23 16:14:38,991 - gfdl - DEBUG - Integration completed through   58 Apr  8   0: 0: 0
+2018-01-23 16:17:21,744 - gfdl - DEBUG - Integration completed through   58 Apr  9   0: 0: 0
+2018-01-23 16:19:59,908 - gfdl - DEBUG - Integration completed through   58 Apr 10   0: 0: 0
+2018-01-23 16:22:31,150 - gfdl - DEBUG - Integration completed through   58 Apr 11   0: 0: 0
+2018-01-23 16:25:11,514 - gfdl - DEBUG - Integration completed through   58 Apr 12   0: 0: 0
+2018-01-23 16:27:45,997 - gfdl - DEBUG - Integration completed through   58 Apr 13   0: 0: 0
+2018-01-23 16:30:23,581 - gfdl - DEBUG - Integration completed through   58 Apr 14   0: 0: 0
+2018-01-23 16:33:03,270 - gfdl - DEBUG - Integration completed through   58 Apr 15   0: 0: 0
+2018-01-23 16:35:40,747 - gfdl - DEBUG - Integration completed through   58 Apr 16   0: 0: 0
+2018-01-23 16:38:20,673 - gfdl - DEBUG - Integration completed through   58 Apr 17   0: 0: 0
+2018-01-23 16:40:55,383 - gfdl - DEBUG - Integration completed through   58 Apr 18   0: 0: 0
+2018-01-23 16:43:31,228 - gfdl - DEBUG - Integration completed through   58 Apr 19   0: 0: 0
+2018-01-23 16:46:09,500 - gfdl - DEBUG - Integration completed through   58 Apr 20   0: 0: 0
+2018-01-23 16:48:46,112 - gfdl - DEBUG - Integration completed through   58 Apr 21   0: 0: 0
+2018-01-23 16:51:38,937 - gfdl - DEBUG - Integration completed through   58 Apr 22   0: 0: 0
+2018-01-23 16:54:15,738 - gfdl - DEBUG - Integration completed through   58 Apr 23   0: 0: 0
+2018-01-23 16:57:03,428 - gfdl - DEBUG - Integration completed through   58 Apr 24   0: 0: 0
+2018-01-23 16:59:40,345 - gfdl - DEBUG - Integration completed through   58 Apr 25   0: 0: 0
+2018-01-23 17:02:21,577 - gfdl - DEBUG - Integration completed through   58 Apr 26   0: 0: 0
+2018-01-23 17:04:58,272 - gfdl - DEBUG - Integration completed through   58 Apr 27   0: 0: 0
+2018-01-23 17:07:41,060 - gfdl - DEBUG - Integration completed through   58 Apr 28   0: 0: 0
+2018-01-23 17:10:26,866 - gfdl - DEBUG - Integration completed through   58 Apr 29   0: 0: 0
+2018-01-23 17:13:01,180 - gfdl - DEBUG - Integration completed through   58 Apr 30   0: 0: 0
+2018-01-23 17:15:46,158 - gfdl - DEBUG - Integration completed through   58 May  1   0: 0: 0
+2018-01-23 17:18:33,479 - gfdl - DEBUG - Integration completed through   58 May  2   0: 0: 0
+2018-01-23 17:21:32,704 - gfdl - DEBUG - Integration completed through   58 May  3   0: 0: 0
+2018-01-23 17:24:41,342 - gfdl - DEBUG - Integration completed through   58 May  4   0: 0: 0
+2018-01-23 17:27:33,028 - gfdl - DEBUG - Integration completed through   58 May  5   0: 0: 0
+2018-01-23 17:30:29,198 - gfdl - DEBUG - Integration completed through   58 May  6   0: 0: 0
+2018-01-23 17:33:16,572 - gfdl - DEBUG - Integration completed through   58 May  7   0: 0: 0
+2018-01-23 17:36:05,509 - gfdl - DEBUG - Integration completed through   58 May  8   0: 0: 0
+2018-01-23 17:38:38,711 - gfdl - DEBUG - Integration completed through   58 May  9   0: 0: 0
+2018-01-23 17:41:38,009 - gfdl - DEBUG - Integration completed through   58 May 10   0: 0: 0
+2018-01-23 17:44:28,319 - gfdl - DEBUG - Integration completed through   58 May 11   0: 0: 0
+2018-01-23 17:47:08,948 - gfdl - DEBUG - Integration completed through   58 May 12   0: 0: 0
+2018-01-23 17:49:46,816 - gfdl - DEBUG - Integration completed through   58 May 13   0: 0: 0
+2018-01-23 17:52:33,811 - gfdl - DEBUG - Integration completed through   58 May 14   0: 0: 0
+2018-01-23 17:55:25,927 - gfdl - DEBUG - Integration completed through   58 May 15   0: 0: 0
+2018-01-23 17:58:02,137 - gfdl - DEBUG - Integration completed through   58 May 16   0: 0: 0
+2018-01-23 18:00:47,136 - gfdl - DEBUG - Integration completed through   58 May 17   0: 0: 0
+2018-01-23 18:03:19,694 - gfdl - DEBUG - Integration completed through   58 May 18   0: 0: 0
+2018-01-23 18:06:05,021 - gfdl - DEBUG - Integration completed through   58 May 19   0: 0: 0
+2018-01-23 18:09:07,131 - gfdl - DEBUG - Integration completed through   58 May 20   0: 0: 0
+2018-01-23 18:11:59,840 - gfdl - DEBUG - Integration completed through   58 May 21   0: 0: 0
+2018-01-23 18:14:53,749 - gfdl - DEBUG - Integration completed through   58 May 22   0: 0: 0
+2018-01-23 18:17:47,419 - gfdl - DEBUG - Integration completed through   58 May 23   0: 0: 0
+2018-01-23 18:20:45,590 - gfdl - DEBUG - Integration completed through   58 May 24   0: 0: 0
+2018-01-23 18:23:43,617 - gfdl - DEBUG - Integration completed through   58 May 25   0: 0: 0
+2018-01-23 18:26:26,906 - gfdl - DEBUG - Integration completed through   58 May 26   0: 0: 0
+2018-01-23 18:29:20,378 - gfdl - DEBUG - Integration completed through   58 May 27   0: 0: 0
+2018-01-23 18:32:08,346 - gfdl - DEBUG - Integration completed through   58 May 28   0: 0: 0
+2018-01-23 18:34:51,906 - gfdl - DEBUG - Integration completed through   58 May 29   0: 0: 0
+2018-01-23 18:37:30,149 - gfdl - DEBUG - Integration completed through   58 May 30   0: 0: 0
+2018-01-23 18:40:08,919 - gfdl - DEBUG - Integration completed through   58 Jun  1   0: 0: 0
+2018-01-23 18:42:52,722 - gfdl - DEBUG - Integration completed through   58 Jun  2   0: 0: 0
+2018-01-23 18:45:38,532 - gfdl - DEBUG - Integration completed through   58 Jun  3   0: 0: 0
+2018-01-23 18:48:31,988 - gfdl - DEBUG - Integration completed through   58 Jun  4   0: 0: 0
+2018-01-23 18:51:12,006 - gfdl - DEBUG - Integration completed through   58 Jun  5   0: 0: 0
+2018-01-23 18:54:02,482 - gfdl - DEBUG - Integration completed through   58 Jun  6   0: 0: 0
+2018-01-23 18:56:39,339 - gfdl - DEBUG - Integration completed through   58 Jun  7   0: 0: 0
+2018-01-23 18:59:16,512 - gfdl - DEBUG - Integration completed through   58 Jun  8   0: 0: 0
+2018-01-23 19:02:00,829 - gfdl - DEBUG - Integration completed through   58 Jun  9   0: 0: 0
+2018-01-23 19:04:54,545 - gfdl - DEBUG - Integration completed through   58 Jun 10   0: 0: 0
+2018-01-23 19:07:29,804 - gfdl - DEBUG - Integration completed through   58 Jun 11   0: 0: 0
+2018-01-23 19:10:20,727 - gfdl - DEBUG - Integration completed through   58 Jun 12   0: 0: 0
+2018-01-23 19:13:17,664 - gfdl - DEBUG - Integration completed through   58 Jun 13   0: 0: 0
+2018-01-23 19:16:07,045 - gfdl - DEBUG - Integration completed through   58 Jun 14   0: 0: 0
+2018-01-23 19:19:10,030 - gfdl - DEBUG - Integration completed through   58 Jun 15   0: 0: 0
+2018-01-23 19:21:51,166 - gfdl - DEBUG - Integration completed through   58 Jun 16   0: 0: 0
+2018-01-23 19:24:55,699 - gfdl - DEBUG - Integration completed through   58 Jun 17   0: 0: 0
+2018-01-23 19:27:44,406 - gfdl - DEBUG - Integration completed through   58 Jun 18   0: 0: 0
+2018-01-23 19:30:23,498 - gfdl - DEBUG - Integration completed through   58 Jun 19   0: 0: 0
+2018-01-23 19:33:23,976 - gfdl - DEBUG - Integration completed through   58 Jun 20   0: 0: 0
+2018-01-23 19:36:28,629 - gfdl - DEBUG - Integration completed through   58 Jun 21   0: 0: 0
+2018-01-23 19:39:17,037 - gfdl - DEBUG - Integration completed through   58 Jun 22   0: 0: 0
+2018-01-23 19:41:59,132 - gfdl - DEBUG - Integration completed through   58 Jun 23   0: 0: 0
+2018-01-23 19:44:59,460 - gfdl - DEBUG - Integration completed through   58 Jun 24   0: 0: 0
+2018-01-23 19:47:37,345 - gfdl - DEBUG - Integration completed through   58 Jun 25   0: 0: 0
+2018-01-23 19:50:19,054 - gfdl - DEBUG - Integration completed through   58 Jun 26   0: 0: 0
+2018-01-23 19:53:21,323 - gfdl - DEBUG - Integration completed through   58 Jun 27   0: 0: 0
+2018-01-23 19:56:10,549 - gfdl - DEBUG - Integration completed through   58 Jun 28   0: 0: 0
+2018-01-23 19:59:08,233 - gfdl - DEBUG - Integration completed through   58 Jun 29   0: 0: 0
+2018-01-23 20:02:07,387 - gfdl - DEBUG - Integration completed through   58 Jun 30   0: 0: 0
+2018-01-23 20:05:01,164 - gfdl - DEBUG - Integration completed through   58 Jul  1   0: 0: 0
+2018-01-23 20:07:36,012 - gfdl - DEBUG - Integration completed through   58 Jul  2   0: 0: 0
+2018-01-23 20:10:41,056 - gfdl - DEBUG - Integration completed through   58 Jul  3   0: 0: 0
+2018-01-23 20:13:43,355 - gfdl - DEBUG - Integration completed through   58 Jul  4   0: 0: 0
+2018-01-23 20:16:39,203 - gfdl - DEBUG - Integration completed through   58 Jul  5   0: 0: 0
+2018-01-23 20:19:43,778 - gfdl - DEBUG - Integration completed through   58 Jul  6   0: 0: 0
+2018-01-23 20:22:40,811 - gfdl - DEBUG - Integration completed through   58 Jul  7   0: 0: 0
+2018-01-23 20:25:40,554 - gfdl - DEBUG - Integration completed through   58 Jul  8   0: 0: 0
+2018-01-23 20:28:37,882 - gfdl - DEBUG - Integration completed through   58 Jul  9   0: 0: 0
+2018-01-23 20:31:20,549 - gfdl - DEBUG - Integration completed through   58 Jul 10   0: 0: 0
+2018-01-23 20:34:19,326 - gfdl - DEBUG - Integration completed through   58 Jul 11   0: 0: 0
+2018-01-23 20:37:24,343 - gfdl - DEBUG - Integration completed through   58 Jul 12   0: 0: 0
+2018-01-23 20:40:07,397 - gfdl - DEBUG - Integration completed through   58 Jul 13   0: 0: 0
+2018-01-23 20:42:46,028 - gfdl - DEBUG - Integration completed through   58 Jul 14   0: 0: 0
+2018-01-23 20:45:20,516 - gfdl - DEBUG - Integration completed through   58 Jul 15   0: 0: 0
+2018-01-23 20:48:05,723 - gfdl - DEBUG - Integration completed through   58 Jul 16   0: 0: 0
+2018-01-23 20:50:58,975 - gfdl - DEBUG - Integration completed through   58 Jul 17   0: 0: 0
+2018-01-23 20:53:59,685 - gfdl - DEBUG - Integration completed through   58 Jul 18   0: 0: 0
+2018-01-23 20:56:58,712 - gfdl - DEBUG - Integration completed through   58 Jul 19   0: 0: 0
+2018-01-23 20:59:50,828 - gfdl - DEBUG - Integration completed through   58 Jul 20   0: 0: 0
+2018-01-23 21:02:47,340 - gfdl - DEBUG - Integration completed through   58 Jul 21   0: 0: 0
+2018-01-23 21:05:50,328 - gfdl - DEBUG - Integration completed through   58 Jul 22   0: 0: 0
+2018-01-23 21:08:47,663 - gfdl - DEBUG - Integration completed through   58 Jul 23   0: 0: 0
+2018-01-23 21:11:33,329 - gfdl - DEBUG - Integration completed through   58 Jul 24   0: 0: 0
+2018-01-23 21:14:25,963 - gfdl - DEBUG - Integration completed through   58 Jul 25   0: 0: 0
+2018-01-23 21:17:25,870 - gfdl - DEBUG - Integration completed through   58 Jul 26   0: 0: 0
+2018-01-23 21:20:16,825 - gfdl - DEBUG - Integration completed through   58 Jul 27   0: 0: 0
+2018-01-23 21:22:56,049 - gfdl - DEBUG - Integration completed through   58 Jul 28   0: 0: 0
+2018-01-23 21:25:53,274 - gfdl - DEBUG - Integration completed through   58 Jul 29   0: 0: 0
+2018-01-23 21:28:36,921 - gfdl - DEBUG - Integration completed through   58 Jul 30   0: 0: 0
+2018-01-23 21:31:40,736 - gfdl - DEBUG - Integration completed through   58 Aug  1   0: 0: 0
+2018-01-23 21:34:44,494 - gfdl - DEBUG - Integration completed through   58 Aug  2   0: 0: 0
+2018-01-23 21:37:47,247 - gfdl - DEBUG - Integration completed through   58 Aug  3   0: 0: 0
+2018-01-23 21:40:51,728 - gfdl - DEBUG - Integration completed through   58 Aug  4   0: 0: 0
+2018-01-23 21:43:40,012 - gfdl - DEBUG - Integration completed through   58 Aug  5   0: 0: 0
+2018-01-23 21:46:35,967 - gfdl - DEBUG - Integration completed through   58 Aug  6   0: 0: 0
+2018-01-23 21:49:34,665 - gfdl - DEBUG - Integration completed through   58 Aug  7   0: 0: 0
+2018-01-23 21:52:19,206 - gfdl - DEBUG - Integration completed through   58 Aug  8   0: 0: 0
+2018-01-23 21:55:18,896 - gfdl - DEBUG - Integration completed through   58 Aug  9   0: 0: 0
+2018-01-23 21:58:22,781 - gfdl - DEBUG - Integration completed through   58 Aug 10   0: 0: 0
+2018-01-23 22:01:11,408 - gfdl - DEBUG - Integration completed through   58 Aug 11   0: 0: 0
+2018-01-23 22:03:50,332 - gfdl - DEBUG - Integration completed through   58 Aug 12   0: 0: 0
+2018-01-23 22:06:29,167 - gfdl - DEBUG - Integration completed through   58 Aug 13   0: 0: 0
+2018-01-23 22:09:08,376 - gfdl - DEBUG - Integration completed through   58 Aug 14   0: 0: 0
+2018-01-23 22:12:04,619 - gfdl - DEBUG - Integration completed through   58 Aug 15   0: 0: 0
+2018-01-23 22:14:45,879 - gfdl - DEBUG - Integration completed through   58 Aug 16   0: 0: 0
+2018-01-23 22:17:37,480 - gfdl - DEBUG - Integration completed through   58 Aug 17   0: 0: 0
+2018-01-23 22:20:23,559 - gfdl - DEBUG - Integration completed through   58 Aug 18   0: 0: 0
+2018-01-23 22:23:06,910 - gfdl - DEBUG - Integration completed through   58 Aug 19   0: 0: 0
+2018-01-23 22:25:58,660 - gfdl - DEBUG - Integration completed through   58 Aug 20   0: 0: 0
+2018-01-23 22:29:04,052 - gfdl - DEBUG - Integration completed through   58 Aug 21   0: 0: 0
+2018-01-23 22:32:11,187 - gfdl - DEBUG - Integration completed through   58 Aug 22   0: 0: 0
+2018-01-23 22:35:08,386 - gfdl - DEBUG - Integration completed through   58 Aug 23   0: 0: 0
+2018-01-23 22:37:46,224 - gfdl - DEBUG - Integration completed through   58 Aug 24   0: 0: 0
+2018-01-23 22:40:21,582 - gfdl - DEBUG - Integration completed through   58 Aug 25   0: 0: 0
+2018-01-23 22:42:59,082 - gfdl - DEBUG - Integration completed through   58 Aug 26   0: 0: 0
+2018-01-23 22:45:34,126 - gfdl - DEBUG - Integration completed through   58 Aug 27   0: 0: 0
+2018-01-23 22:48:15,686 - gfdl - DEBUG - Integration completed through   58 Aug 28   0: 0: 0
+2018-01-23 22:51:05,322 - gfdl - DEBUG - Integration completed through   58 Aug 29   0: 0: 0
+2018-01-23 22:54:04,553 - gfdl - DEBUG - Integration completed through   58 Aug 30   0: 0: 0
+2018-01-23 22:56:46,403 - gfdl - DEBUG - Integration completed through   58 Sep  1   0: 0: 0
+2018-01-23 22:59:26,816 - gfdl - DEBUG - Integration completed through   58 Sep  2   0: 0: 0
+2018-01-23 23:02:24,523 - gfdl - DEBUG - Integration completed through   58 Sep  3   0: 0: 0
+2018-01-23 23:05:17,409 - gfdl - DEBUG - Integration completed through   58 Sep  4   0: 0: 0
+2018-01-23 23:08:04,237 - gfdl - DEBUG - Integration completed through   58 Sep  5   0: 0: 0
+2018-01-23 23:10:58,142 - gfdl - DEBUG - Integration completed through   58 Sep  6   0: 0: 0
+2018-01-23 23:13:41,061 - gfdl - DEBUG - Integration completed through   58 Sep  7   0: 0: 0
+2018-01-23 23:16:26,433 - gfdl - DEBUG - Integration completed through   58 Sep  8   0: 0: 0
+2018-01-23 23:19:08,736 - gfdl - DEBUG - Integration completed through   58 Sep  9   0: 0: 0
+2018-01-23 23:22:01,747 - gfdl - DEBUG - Integration completed through   58 Sep 10   0: 0: 0
+2018-01-23 23:24:51,868 - gfdl - DEBUG - Integration completed through   58 Sep 11   0: 0: 0
+2018-01-23 23:27:44,756 - gfdl - DEBUG - Integration completed through   58 Sep 12   0: 0: 0
+2018-01-23 23:30:18,078 - gfdl - DEBUG - Integration completed through   58 Sep 13   0: 0: 0
+2018-01-23 23:32:54,143 - gfdl - DEBUG - Integration completed through   58 Sep 14   0: 0: 0
+2018-01-23 23:35:21,215 - gfdl - DEBUG - Integration completed through   58 Sep 15   0: 0: 0
+2018-01-23 23:37:52,604 - gfdl - DEBUG - Integration completed through   58 Sep 16   0: 0: 0
+2018-01-23 23:40:22,652 - gfdl - DEBUG - Integration completed through   58 Sep 17   0: 0: 0
+2018-01-23 23:42:52,480 - gfdl - DEBUG - Integration completed through   58 Sep 18   0: 0: 0
+2018-01-23 23:45:23,108 - gfdl - DEBUG - Integration completed through   58 Sep 19   0: 0: 0
+2018-01-23 23:47:55,264 - gfdl - DEBUG - Integration completed through   58 Sep 20   0: 0: 0
+2018-01-23 23:50:33,769 - gfdl - DEBUG - Integration completed through   58 Sep 21   0: 0: 0
+2018-01-23 23:53:13,431 - gfdl - DEBUG - Integration completed through   58 Sep 22   0: 0: 0
+2018-01-23 23:56:00,708 - gfdl - DEBUG - Integration completed through   58 Sep 23   0: 0: 0
+2018-01-23 23:58:47,063 - gfdl - DEBUG - Integration completed through   58 Sep 24   0: 0: 0
+2018-01-24 00:01:27,557 - gfdl - DEBUG - Integration completed through   58 Sep 25   0: 0: 0
+2018-01-24 00:04:07,161 - gfdl - DEBUG - Integration completed through   58 Sep 26   0: 0: 0
+2018-01-24 00:06:39,370 - gfdl - DEBUG - Integration completed through   58 Sep 27   0: 0: 0
+2018-01-24 00:09:14,104 - gfdl - DEBUG - Integration completed through   58 Sep 28   0: 0: 0
+2018-01-24 00:11:45,961 - gfdl - DEBUG - Integration completed through   58 Sep 29   0: 0: 0
+2018-01-24 00:14:17,439 - gfdl - DEBUG - Integration completed through   58 Sep 30   0: 0: 0
+2018-01-24 00:16:49,102 - gfdl - DEBUG - Integration completed through   58 Oct  1   0: 0: 0
+2018-01-24 00:19:19,434 - gfdl - DEBUG - Integration completed through   58 Oct  2   0: 0: 0
+2018-01-24 00:21:49,351 - gfdl - DEBUG - Integration completed through   58 Oct  3   0: 0: 0
+2018-01-24 00:24:20,050 - gfdl - DEBUG - Integration completed through   58 Oct  4   0: 0: 0
+2018-01-24 00:26:50,878 - gfdl - DEBUG - Integration completed through   58 Oct  5   0: 0: 0
+2018-01-24 00:29:21,086 - gfdl - DEBUG - Integration completed through   58 Oct  6   0: 0: 0
+2018-01-24 00:31:53,039 - gfdl - DEBUG - Integration completed through   58 Oct  7   0: 0: 0
+2018-01-24 00:34:26,939 - gfdl - DEBUG - Integration completed through   58 Oct  8   0: 0: 0
+2018-01-24 00:36:58,918 - gfdl - DEBUG - Integration completed through   58 Oct  9   0: 0: 0
+2018-01-24 00:39:30,865 - gfdl - DEBUG - Integration completed through   58 Oct 10   0: 0: 0
+2018-01-24 00:42:02,365 - gfdl - DEBUG - Integration completed through   58 Oct 11   0: 0: 0
+2018-01-24 00:44:42,294 - gfdl - DEBUG - Integration completed through   58 Oct 12   0: 0: 0
+2018-01-24 00:47:18,187 - gfdl - DEBUG - Integration completed through   58 Oct 13   0: 0: 0
+2018-01-24 00:50:04,203 - gfdl - DEBUG - Integration completed through   58 Oct 14   0: 0: 0
+2018-01-24 00:52:55,580 - gfdl - DEBUG - Integration completed through   58 Oct 15   0: 0: 0
+2018-01-24 00:55:36,646 - gfdl - DEBUG - Integration completed through   58 Oct 16   0: 0: 0
+2018-01-24 00:58:34,311 - gfdl - DEBUG - Integration completed through   58 Oct 17   0: 0: 0
+2018-01-24 01:01:13,662 - gfdl - DEBUG - Integration completed through   58 Oct 18   0: 0: 0
+2018-01-24 01:03:47,417 - gfdl - DEBUG - Integration completed through   58 Oct 19   0: 0: 0
+2018-01-24 01:06:35,855 - gfdl - DEBUG - Integration completed through   58 Oct 20   0: 0: 0
+2018-01-24 01:09:21,875 - gfdl - DEBUG - Integration completed through   58 Oct 21   0: 0: 0
+2018-01-24 01:12:13,567 - gfdl - DEBUG - Integration completed through   58 Oct 22   0: 0: 0
+2018-01-24 01:15:06,393 - gfdl - DEBUG - Integration completed through   58 Oct 23   0: 0: 0
+2018-01-24 01:17:44,222 - gfdl - DEBUG - Integration completed through   58 Oct 24   0: 0: 0
+2018-01-24 01:20:23,459 - gfdl - DEBUG - Integration completed through   58 Oct 25   0: 0: 0
+2018-01-24 01:22:56,864 - gfdl - DEBUG - Integration completed through   58 Oct 26   0: 0: 0
+2018-01-24 01:25:30,551 - gfdl - DEBUG - Integration completed through   58 Oct 27   0: 0: 0
+2018-01-24 01:28:14,999 - gfdl - DEBUG - Integration completed through   58 Oct 28   0: 0: 0
+2018-01-24 01:30:54,786 - gfdl - DEBUG - Integration completed through   58 Oct 29   0: 0: 0
+2018-01-24 01:33:33,552 - gfdl - DEBUG - Integration completed through   58 Oct 30   0: 0: 0
+2018-01-24 01:36:13,567 - gfdl - DEBUG - Integration completed through   58 Nov  1   0: 0: 0
+2018-01-24 01:38:50,272 - gfdl - DEBUG - Integration completed through   58 Nov  2   0: 0: 0
+2018-01-24 01:41:32,417 - gfdl - DEBUG - Integration completed through   58 Nov  3   0: 0: 0
+2018-01-24 01:44:26,562 - gfdl - DEBUG - Integration completed through   58 Nov  4   0: 0: 0
+2018-01-24 01:47:09,268 - gfdl - DEBUG - Integration completed through   58 Nov  5   0: 0: 0
+2018-01-24 01:49:50,516 - gfdl - DEBUG - Integration completed through   58 Nov  6   0: 0: 0
+2018-01-24 01:52:32,094 - gfdl - DEBUG - Integration completed through   58 Nov  7   0: 0: 0
+2018-01-24 01:55:33,154 - gfdl - DEBUG - Integration completed through   58 Nov  8   0: 0: 0
+2018-01-24 01:58:28,469 - gfdl - DEBUG - Integration completed through   58 Nov  9   0: 0: 0
+2018-01-24 02:01:11,961 - gfdl - DEBUG - Integration completed through   58 Nov 10   0: 0: 0
+2018-01-24 02:04:09,551 - gfdl - DEBUG - Integration completed through   58 Nov 11   0: 0: 0
+2018-01-24 02:07:00,416 - gfdl - DEBUG - Integration completed through   58 Nov 12   0: 0: 0
+2018-01-24 02:09:56,653 - gfdl - DEBUG - Integration completed through   58 Nov 13   0: 0: 0
+2018-01-24 02:12:41,138 - gfdl - DEBUG - Integration completed through   58 Nov 14   0: 0: 0
+2018-01-24 02:15:17,707 - gfdl - DEBUG - Integration completed through   58 Nov 15   0: 0: 0
+2018-01-24 02:18:03,676 - gfdl - DEBUG - Integration completed through   58 Nov 16   0: 0: 0
+2018-01-24 02:20:45,568 - gfdl - DEBUG - Integration completed through   58 Nov 17   0: 0: 0
+2018-01-24 02:23:24,411 - gfdl - DEBUG - Integration completed through   58 Nov 18   0: 0: 0
+2018-01-24 02:26:25,810 - gfdl - DEBUG - Integration completed through   58 Nov 19   0: 0: 0
+2018-01-24 02:29:19,377 - gfdl - DEBUG - Integration completed through   58 Nov 20   0: 0: 0
+2018-01-24 02:32:16,594 - gfdl - DEBUG - Integration completed through   58 Nov 21   0: 0: 0
+2018-01-24 02:35:18,368 - gfdl - DEBUG - Integration completed through   58 Nov 22   0: 0: 0
+2018-01-24 02:37:54,896 - gfdl - DEBUG - Integration completed through   58 Nov 23   0: 0: 0
+2018-01-24 02:40:37,320 - gfdl - DEBUG - Integration completed through   58 Nov 24   0: 0: 0
+2018-01-24 02:43:24,633 - gfdl - DEBUG - Integration completed through   58 Nov 25   0: 0: 0
+2018-01-24 02:46:20,961 - gfdl - DEBUG - Integration completed through   58 Nov 26   0: 0: 0
+2018-01-24 02:49:17,560 - gfdl - DEBUG - Integration completed through   58 Nov 27   0: 0: 0
+2018-01-24 02:52:04,574 - gfdl - DEBUG - Integration completed through   58 Nov 28   0: 0: 0
+2018-01-24 02:55:00,279 - gfdl - DEBUG - Integration completed through   58 Nov 29   0: 0: 0
+2018-01-24 02:57:59,793 - gfdl - DEBUG - Integration completed through   58 Nov 30   0: 0: 0
+2018-01-24 03:00:55,056 - gfdl - DEBUG - Integration completed through   58 Dec  1   0: 0: 0
+2018-01-24 03:03:40,820 - gfdl - DEBUG - Integration completed through   58 Dec  2   0: 0: 0
+2018-01-24 03:06:25,787 - gfdl - DEBUG - Integration completed through   58 Dec  3   0: 0: 0
+2018-01-24 03:09:16,588 - gfdl - DEBUG - Integration completed through   58 Dec  4   0: 0: 0
+2018-01-24 03:12:03,530 - gfdl - DEBUG - Integration completed through   58 Dec  5   0: 0: 0
+2018-01-24 03:14:44,378 - gfdl - DEBUG - Integration completed through   58 Dec  6   0: 0: 0
+2018-01-24 03:17:37,604 - gfdl - DEBUG - Integration completed through   58 Dec  7   0: 0: 0
+2018-01-24 03:20:38,797 - gfdl - DEBUG - Integration completed through   58 Dec  8   0: 0: 0
+2018-01-24 03:23:24,941 - gfdl - DEBUG - Integration completed through   58 Dec  9   0: 0: 0
+2018-01-24 03:26:08,693 - gfdl - DEBUG - Integration completed through   58 Dec 10   0: 0: 0
+2018-01-24 03:29:02,114 - gfdl - DEBUG - Integration completed through   58 Dec 11   0: 0: 0
+2018-01-24 03:31:45,942 - gfdl - DEBUG - Integration completed through   58 Dec 12   0: 0: 0
+2018-01-24 03:34:37,052 - gfdl - DEBUG - Integration completed through   58 Dec 13   0: 0: 0
+2018-01-24 03:37:36,366 - gfdl - DEBUG - Integration completed through   58 Dec 14   0: 0: 0
+2018-01-24 03:40:32,367 - gfdl - DEBUG - Integration completed through   58 Dec 15   0: 0: 0
+2018-01-24 03:43:27,817 - gfdl - DEBUG - Integration completed through   58 Dec 16   0: 0: 0
+2018-01-24 03:46:12,875 - gfdl - DEBUG - Integration completed through   58 Dec 17   0: 0: 0
+2018-01-24 03:49:02,239 - gfdl - DEBUG - Integration completed through   58 Dec 18   0: 0: 0
+2018-01-24 03:51:43,677 - gfdl - DEBUG - Integration completed through   58 Dec 19   0: 0: 0
+2018-01-24 03:54:24,278 - gfdl - DEBUG - Integration completed through   58 Dec 20   0: 0: 0
+2018-01-24 03:57:12,691 - gfdl - DEBUG - Integration completed through   58 Dec 21   0: 0: 0
+2018-01-24 03:59:53,715 - gfdl - DEBUG - Integration completed through   58 Dec 22   0: 0: 0
+2018-01-24 04:02:40,409 - gfdl - DEBUG - Integration completed through   58 Dec 23   0: 0: 0
+2018-01-24 04:05:40,134 - gfdl - DEBUG - Integration completed through   58 Dec 24   0: 0: 0
+2018-01-24 04:08:34,981 - gfdl - DEBUG - Integration completed through   58 Dec 25   0: 0: 0
+2018-01-24 04:11:18,998 - gfdl - DEBUG - Integration completed through   58 Dec 26   0: 0: 0
+2018-01-24 04:14:02,990 - gfdl - DEBUG - Integration completed through   58 Dec 27   0: 0: 0
+2018-01-24 04:16:48,772 - gfdl - DEBUG - Integration completed through   58 Dec 28   0: 0: 0
+2018-01-24 04:19:28,726 - gfdl - DEBUG - Integration completed through   58 Dec 29   0: 0: 0
+2018-01-24 04:22:34,088 - gfdl - DEBUG - Integration completed through   58 Dec 30   0: 0: 0
+2018-01-24 04:25:39,247 - gfdl - DEBUG - Integration completed through   59 Jan  1   0: 0: 0
+2018-01-24 04:25:39,344 - gfdl - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to    1638400.
+2018-01-24 04:25:39,965 - gfdl - DEBUG - MPP_DOMAINS_STACK high water mark=      204800
+2018-01-24 04:25:39,965 - gfdl - DEBUG - Tabulating mpp_clock statistics across     16 PEs...
+2018-01-24 04:25:39,965 - gfdl - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-01-24 04:25:39,965 - gfdl - DEBUG - Total runtime                     60006.647928  60006.647960  60006.647947      0.000010  1.000     0     0    15
+2018-01-24 04:25:39,966 - gfdl - DEBUG - MPP_STACK high water mark=           0
+2018-01-24 04:25:39,994 - gfdl - DEBUG - Month 19 complete, combining nc files
+2018-01-24 04:27:15,170 - gfdl - INFO - Run for month 19 complete
+2018-01-24 04:27:32,220 - gfdl - INFO - Saved restart file '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/restarts/res_19.cpio'
+2018-01-24 04:27:32,311 - gfdl - INFO - Could not output git commit hash
+2018-01-24 04:28:05,088 - gfdl - INFO - Emptied run directory '/s2s/bernatj//simple_models//Isca-master/fixed_sst_clim_t85/run'
+Disk space more than 20Gb - not sending alert email.
+Disk space more than 20Gb - not sending alert email.

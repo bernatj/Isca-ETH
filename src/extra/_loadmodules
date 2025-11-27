@@ -1,0 +1,7 @@
+echo loadmodules
+
+module purge
+module load intel/14.0.1
+module load netcdf/4.3.3-intel
+module load openmpi/1.10.7-intel-2019.0 
+

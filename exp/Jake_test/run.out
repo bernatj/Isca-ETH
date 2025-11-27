@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "first_run.py", line 3, in <module>
+    from gfdl.experiment import Experiment, DiagTable
+ImportError: No module named gfdl.experiment

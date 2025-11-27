@@ -1,0 +1,366 @@
+2017-11-03 17:12:44,936 - gfdl - WARNING - Working directory for exp 'realistic_continents_control_dry' already exists
+2017-11-03 17:12:44,981 - gfdl - INFO - Writing path_names to '/s2s/bernatj//simple_models//Isca-master/realistic_continents_control_dry/path_names'
+2017-11-03 17:12:44,987 - gfdl - INFO - Running compiler
+2017-11-03 17:12:44,996 - gfdl - DEBUG - /s2s/bernatj//simple_models//Isca-master/realistic_continents_control_dry/compile.sh: line 18: nf-config: command not found
+2017-11-03 17:12:45,000 - gfdl - DEBUG - loadmodules
+2017-11-03 17:12:45,097 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2017-11-03 17:12:45,098 - gfdl - DEBUG - 1) intel/16.0.2                 3) netcdf/4.3.3-intel
+2017-11-03 17:12:45,099 - gfdl - DEBUG - 2) hdf5/1.8.15                  4) openmpi/1.6.3-intel-16.0.2
+2017-11-03 17:12:45,204 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2017-11-03 17:12:45,205 - gfdl - DEBUG - 1) intel/16.0.2                 3) netcdf/4.3.3-intel
+2017-11-03 17:12:45,205 - gfdl - DEBUG - 2) hdf5/1.8.15                  4) openmpi/1.6.3-intel-16.0.2
+2017-11-03 17:12:45,429 - gfdl - DEBUG - ln: failed to create symbolic link '/s2s/bernatj//simple_models//Isca-master/realistic_continents_control_dry/exec/mppnccombine.x': File exists
+2017-11-03 17:12:45,951 - gfdl - DEBUG - Makefile is ready.
+2017-11-03 17:12:46,028 - gfdl - DEBUG - make: Nothing to be done for 'all'.
+2017-11-03 17:12:46,114 - gfdl - DEBUG - make: 'fms_moist.x' is up to date.
+2017-11-03 17:12:46,115 - gfdl - DEBUG - ...................................................................................................................................................................................................
+2017-11-03 17:12:46,195 - gfdl - DEBUG - Compilation complete.
+2017-11-03 17:12:46,217 - gfdl - INFO - Emptied run directory '/s2s/bernatj//simple_models//Isca-master/realistic_continents_control_dry/run'
+2017-11-03 17:12:46,262 - gfdl - INFO - Writing namelist to '/s2s/bernatj//simple_models//Isca-master/realistic_continents_control_dry/run/input.nml'
+2017-11-03 17:12:46,264 - gfdl - INFO - Writing field_table to '/s2s/bernatj//simple_models//Isca-master/realistic_continents_control_dry/run/field_table'
+2017-11-03 17:12:46,271 - gfdl - INFO - Writing diag_table to '/s2s/bernatj//simple_models//Isca-master/realistic_continents_control_dry/run/diag_table'
+2017-11-03 17:12:46,298 - gfdl - INFO - Running month 1 without restart file
+2017-11-03 17:12:46,301 - gfdl - INFO - Running GFDL for month 1
+2017-11-03 17:12:46,309 - gfdl - DEBUG - loadmodules
+2017-11-03 17:12:46,385 - gfdl - DEBUG - Currently Loaded Modulefiles:
+2017-11-03 17:12:46,387 - gfdl - DEBUG - 1) intel/16.0.2                 3) netcdf/4.3.3-intel
+2017-11-03 17:12:46,387 - gfdl - DEBUG - 2) hdf5/1.8.15                  4) openmpi/1.6.3-intel-16.0.2
+2017-11-03 17:12:47,750 - gfdl - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2017-11-03 17:12:47,750 - gfdl - DEBUG - &MPP_IO_NML
+2017-11-03 17:12:47,750 - gfdl - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2017-11-03 17:12:47,751 - gfdl - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2017-11-03 17:12:47,751 - gfdl - DEBUG - IO_CLOCKS_ON    = F,
+2017-11-03 17:12:47,751 - gfdl - DEBUG - SHUFFLE =           0,
+2017-11-03 17:12:47,751 - gfdl - DEBUG - DEFLATE_LEVEL   =          -1
+2017-11-03 17:12:47,751 - gfdl - DEBUG - /
+2017-11-03 17:12:47,751 - gfdl - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2017-11-03 17:12:47,752 - gfdl - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2017-11-03 17:12:47,754 - gfdl - DEBUG - starting            1  OpenMP threads per MPI-task
+2017-11-03 17:12:47,754 - gfdl - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2017-11-03 17:12:47,754 - gfdl - DEBUG - X-AXIS =  128
+2017-11-03 17:12:47,754 - gfdl - DEBUG - Y-AXIS =    4   4   4   4   4   4   4   4   4   4   4   4   4   4   4   4
+2017-11-03 17:12:47,765 - gfdl - DEBUG - Message from subroutine regularize: lambda=  1.00000000E-07  fraction_smoothed=  3.20502600E-01
+2017-11-03 17:12:47,766 - gfdl - DEBUG - Message from subroutine regularize: lambda=  2.00000000E-07  fraction_smoothed=  4.21261288E-01
+2017-11-03 17:12:47,770 - gfdl - DEBUG - Message from subroutine regularize: lambda=  5.75886901E-07  fraction_smoothed=  6.15274838E-01
+2017-11-03 17:12:47,773 - gfdl - DEBUG - Message from subroutine regularize: lambda=  9.33778239E-07  fraction_smoothed=  7.01278727E-01
+2017-11-03 17:12:47,777 - gfdl - DEBUG - Message from subroutine regularize: lambda=  1.34459092E-06  fraction_smoothed=  7.58831465E-01
+2017-11-03 17:12:47,781 - gfdl - DEBUG - Message from subroutine regularize: lambda=  1.63845280E-06  fraction_smoothed=  7.86777131E-01
+2017-11-03 17:12:47,786 - gfdl - DEBUG - Message from subroutine regularize: lambda=  1.77749752E-06  fraction_smoothed=  7.97598558E-01
+2017-11-03 17:12:47,790 - gfdl - DEBUG - Message from subroutine regularize: lambda=  1.80835369E-06  fraction_smoothed=  7.99832621E-01
+2017-11-03 17:12:47,795 - gfdl - DEBUG - Message from subroutine regularize: lambda=  1.80835369E-06  fraction_smoothed=  7.99832621E-01
+2017-11-03 17:12:47,795 - gfdl - DEBUG - Message from subroutine get_topography:
+2017-11-03 17:12:47,795 - gfdl - DEBUG - lambda=  1.80835369E-06  fraction_smoothed=  7.99832621E-01
+2017-11-03 17:12:47,811 - gfdl - DEBUG - mean surface pressure= 973.1308 mb
+2017-11-03 17:12:47,818 - gfdl - DEBUG - NOTE from PE    0: idealized_moist_phys: Using dry convection scheme.
+2017-11-03 17:12:47,821 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :sst_clim_amip.nc is a year-independent climatology file
+2017-11-03 17:12:47,823 - gfdl - DEBUG - Initializing src field : sst_clim_amip
+2017-11-03 17:12:47,825 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :siconc_clim_amip.nc is a year-independent climatology file
+2017-11-03 17:12:47,827 - gfdl - DEBUG - Initializing src field : siconc_clim_amip
+2017-11-03 17:12:47,847 - gfdl - DEBUG - NOTE from PE    0: interpolator_mod :ozone_1990.nc is a year-independent climatology file
+2017-11-03 17:12:47,848 - gfdl - DEBUG - Initializing src field : ozone_1990
+2017-11-03 17:12:47,943 - gfdl - DEBUG - FATAL from PE   14: lookup_es_3d: saturation vapor pressure table overflow, nbad=  20480
+2017-11-03 17:12:47,944 - gfdl - DEBUG - --------------------------------------------------------------------------
+2017-11-03 17:12:47,944 - gfdl - DEBUG - MPI_ABORT was invoked on rank 14 in communicator MPI_COMM_WORLD
+2017-11-03 17:12:47,944 - gfdl - DEBUG - with errorcode 1.
+2017-11-03 17:12:47,944 - gfdl - DEBUG - NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+2017-11-03 17:12:47,945 - gfdl - DEBUG - You may or may not see output from other processes, depending on
+2017-11-03 17:12:47,945 - gfdl - DEBUG - exactly when Open MPI kills them.
+2017-11-03 17:12:47,945 - gfdl - DEBUG - --------------------------------------------------------------------------
+2017-11-03 17:12:48,066 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,066 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,066 - gfdl - DEBUG - libintlc.so.5      00002BA7E74ABBD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,066 - gfdl - DEBUG - libintlc.so.5      00002BA7E74A97F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,066 - gfdl - DEBUG - libifcore.so.5     00002BA7E63575D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,066 - gfdl - DEBUG - libifcore.so.5     00002BA7E6357426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,066 - gfdl - DEBUG - libifcore.so.5     00002BA7E62B05F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,066 - gfdl - DEBUG - libifcore.so.5     00002BA7E62C2408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,066 - gfdl - DEBUG - libpthread.so.0    00002BA7E770EB10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - fms_moist.x        000000000111ACFB  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - fms_moist.x        00000000010FE251  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - libc.so.6          00002BA7E793B6E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,067 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,067 - gfdl - DEBUG - libintlc.so.5      00002B57FBE7BBD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - libintlc.so.5      00002B57FBE797F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - libifcore.so.5     00002B57FAD275D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - libifcore.so.5     00002B57FAD27426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,067 - gfdl - DEBUG - libifcore.so.5     00002B57FAC805F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - libifcore.so.5     00002B57FAC92408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - libpthread.so.0    00002B57FC0DEB10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - fms_moist.x        000000000100D047  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - fms_moist.x        0000000000FF9534  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - fms_moist.x        00000000010FBAFE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - libc.so.6          00002B57FC30B6E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,068 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,068 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,068 - gfdl - DEBUG - libintlc.so.5      00002B6921E43BD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - libintlc.so.5      00002B6921E417F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - libifcore.so.5     00002B6920CEF5D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - libifcore.so.5     00002B6920CEF426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - libifcore.so.5     00002B6920C485F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - libifcore.so.5     00002B6920C5A408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - libpthread.so.0    00002B69220A6B10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - fms_moist.x        0000000000FFB0B4  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - fms_moist.x        00000000010FBAFE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,069 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - libc.so.6          00002B69222D36E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,070 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,070 - gfdl - DEBUG - libintlc.so.5      00002B34415D3BD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - libintlc.so.5      00002B34415D17F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - libifcore.so.5     00002B344047F5D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - libifcore.so.5     00002B344047F426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - libifcore.so.5     00002B34403D85F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - libifcore.so.5     00002B34403EA408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - libpthread.so.0    00002B3441836B10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - fms_moist.x        000000000111B0FC  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - fms_moist.x        00000000010FE5A5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,070 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - libc.so.6          00002B3441A636E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,071 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,071 - gfdl - DEBUG - libintlc.so.5      00002B3ABD485BD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - libintlc.so.5      00002B3ABD4837F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - libifcore.so.5     00002B3ABC3315D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - libifcore.so.5     00002B3ABC331426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - libifcore.so.5     00002B3ABC28A5F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,071 - gfdl - DEBUG - libifcore.so.5     00002B3ABC29C408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - libpthread.so.0    00002B3ABD6E8B10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - fms_moist.x        0000000000B89E5C  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - fms_moist.x        00000000010FDAC5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - libc.so.6          00002B3ABD9156E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,072 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+Exception in thread background thread for pid 46848:
+Traceback (most recent call last):
+  File "/home/bernatj/anaconda2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/home/bernatj/anaconda2/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 1540, in wrap
+    fn(*args, **kwargs)
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 2455, in background_thread
+    handle_exit_code(exit_code)
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 2153, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+ErrorReturnCode_1: 
+
+  RAN: /bin/bash /s2s/bernatj//simple_models//Isca-master/realistic_continents_control_dry/run/runmonth.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+2017-11-03 17:12:48,073 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,073 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,073 - gfdl - DEBUG - libintlc.so.5      00002AB6242F0BD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - libintlc.so.5      00002AB6242EE7F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - libifcore.so.5     00002AB62319C5D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - libifcore.so.5     00002AB62319C426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - libifcore.so.5     00002AB6230F55F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - libifcore.so.5     00002AB623107408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - libpthread.so.0    00002AB624553B10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - fms_moist.x        0000000000B89D2F  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - fms_moist.x        00000000010FDAC5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,073 - gfdl - DEBUG - libc.so.6          00002AB6247806E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,074 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,074 - gfdl - DEBUG - libintlc.so.5      00002B667D3A1BD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - libintlc.so.5      00002B667D39F7F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - libifcore.so.5     00002B667C24D5D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - libifcore.so.5     00002B667C24D426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - libifcore.so.5     00002B667C1A65F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - libifcore.so.5     00002B667C1B8408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - libpthread.so.0    00002B667D604B10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - fms_moist.x        000000000111B0D0  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - fms_moist.x        00000000010FE251  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,074 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - libc.so.6          00002B667D8316E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,075 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,075 - gfdl - DEBUG - libintlc.so.5      00002AC1F6EDEBD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - libintlc.so.5      00002AC1F6EDC7F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - libifcore.so.5     00002AC1F5D8A5D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - libifcore.so.5     00002AC1F5D8A426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - libifcore.so.5     00002AC1F5CE35F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - libifcore.so.5     00002AC1F5CF5408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - libpthread.so.0    00002AC1F7141B10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - fms_moist.x        00000000010FDECE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,075 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - libc.so.6          00002AC1F736E6E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,076 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,076 - gfdl - DEBUG - libintlc.so.5      00002B07C8354BD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - libintlc.so.5      00002B07C83527F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - libifcore.so.5     00002B07C72005D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - libifcore.so.5     00002B07C7200426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - libifcore.so.5     00002B07C71595F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - libifcore.so.5     00002B07C716B408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - libpthread.so.0    00002B07C85B7B10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - fms_moist.x        000000000100AD27  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - fms_moist.x        0000000000FF953D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - fms_moist.x        00000000010FBAFE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,076 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - libc.so.6          00002B07C87E46E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,077 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,077 - gfdl - DEBUG - libintlc.so.5      00002AC72F109BD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - libintlc.so.5      00002AC72F1077F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - libifcore.so.5     00002AC72DFB55D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - libifcore.so.5     00002AC72DFB5426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - libifcore.so.5     00002AC72DF0E5F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - libifcore.so.5     00002AC72DF20408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - libpthread.so.0    00002AC72F36CB10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - fms_moist.x        000000000111ACFB  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - fms_moist.x        00000000010FE251  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,077 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - libc.so.6          00002AC72F5996E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,078 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,078 - gfdl - DEBUG - libintlc.so.5      00002B5BFBCE6BD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - libintlc.so.5      00002B5BFBCE47F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - libifcore.so.5     00002B5BFAB925D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - libifcore.so.5     00002B5BFAB92426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - libifcore.so.5     00002B5BFAAEB5F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - libifcore.so.5     00002B5BFAAFD408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - libpthread.so.0    00002B5BFBF49B10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - fms_moist.x        000000000111ACFB  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - fms_moist.x        00000000010FE251  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - fms_moist.x        00000000007885B8  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,078 - gfdl - DEBUG - fms_moist.x        0000000001144E11  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - libc.so.6          00002B5BFC1766E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,079 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,079 - gfdl - DEBUG - libintlc.so.5      00002AF7D3DD3BD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - libintlc.so.5      00002AF7D3DD17F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - libifcore.so.5     00002AF7D2C7F5D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - libifcore.so.5     00002AF7D2C7F426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - libifcore.so.5     00002AF7D2BD85F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - libifcore.so.5     00002AF7D2BEA408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - libpthread.so.0    00002AF7D4036B10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - fms_moist.x        0000000000839E13  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - fms_moist.x        000000000114814C  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,079 - gfdl - DEBUG - fms_moist.x        00000000006B949A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - libc.so.6          00002AF7D42636E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - forrtl: error (78): process killed (SIGTERM)
+2017-11-03 17:12:48,080 - gfdl - DEBUG - Image              PC                Routine            Line        Source
+2017-11-03 17:12:48,080 - gfdl - DEBUG - libintlc.so.5      00002B1D591AEBD5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - libintlc.so.5      00002B1D591AC7F7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - libifcore.so.5     00002B1D5805A5D2  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - libifcore.so.5     00002B1D5805A426  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - libifcore.so.5     00002B1D57FB35F5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - libifcore.so.5     00002B1D57FC5408  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - libpthread.so.0    00002B1D59411B10  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - fms_moist.x        0000000000C22F4C  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - fms_moist.x        0000000000C1C764  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - fms_moist.x        0000000000C0AB9A  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - fms_moist.x        00000000006B5CCE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,080 - gfdl - DEBUG - fms_moist.x        0000000000F5775D  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,081 - gfdl - DEBUG - fms_moist.x        0000000000849DC7  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,081 - gfdl - DEBUG - fms_moist.x        00000000004632DE  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,081 - gfdl - DEBUG - libc.so.6          00002B1D5963E6E5  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,081 - gfdl - DEBUG - fms_moist.x        00000000004631E9  Unknown               Unknown  Unknown
+2017-11-03 17:12:48,081 - gfdl - DEBUG - FATAL from PE   13: lookup_es_3d: saturation vapor pressure table overflow, nbad=  20480
+2017-11-03 17:12:48,081 - gfdl - DEBUG - FATAL from PE   15: lookup_es_3d: saturation vapor pressure table overflow, nbad=  20480
+2017-11-03 17:12:48,081 - gfdl - DEBUG - --------------------------------------------------------------------------
+2017-11-03 17:12:48,081 - gfdl - DEBUG - mpirun has exited due to process rank 14 with PID 46884 on
+2017-11-03 17:12:48,081 - gfdl - DEBUG - node atmos exiting improperly. There are two reasons this could occur:
+2017-11-03 17:12:48,081 - gfdl - DEBUG - 1. this process did not call "init" before exiting, but others in
+2017-11-03 17:12:48,081 - gfdl - DEBUG - the job did. This can cause a job to hang indefinitely while it waits
+2017-11-03 17:12:48,081 - gfdl - DEBUG - for all processes to call "init". By rule, if one process calls "init",
+2017-11-03 17:12:48,081 - gfdl - DEBUG - then ALL processes must call "init" prior to termination.
+2017-11-03 17:12:48,081 - gfdl - DEBUG - 2. this process called "init", but exited without calling "finalize".
+2017-11-03 17:12:48,081 - gfdl - DEBUG - By rule, all processes that call "init" MUST call "finalize" prior to
+2017-11-03 17:12:48,081 - gfdl - DEBUG - exiting or it will be considered an "abnormal termination"
+2017-11-03 17:12:48,081 - gfdl - DEBUG - This may have caused other processes in the application to be
+2017-11-03 17:12:48,082 - gfdl - DEBUG - terminated by signals sent by mpirun (as reported here).
+2017-11-03 17:12:48,082 - gfdl - DEBUG - --------------------------------------------------------------------------
+2017-11-03 17:12:48,082 - gfdl - DEBUG - [atmos:46869] 2 more processes have sent help message help-mpi-api.txt / mpi-abort
+2017-11-03 17:12:48,082 - gfdl - DEBUG - [atmos:46869] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+2017-11-03 17:12:48,108 - gfdl - ERROR - Run failed for month 1
+Disk space more than 20Gb - not sending alert email.
+Traceback (most recent call last):
+  File "realistic_continents_fixed_sst_dry_bernat.py", line 96, in <module>
+    baseexp.runmonth(1, use_restart=False, num_cores=16, overwrite_data=True, light=False)
+  File "/s2s/bernatj/simple_models/Isca-master/src/extra/python/gfdl/experiment.py", line 509, in run
+    proc.process.kill()
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 2273, in kill
+    self.signal(signal.SIGKILL)
+  File "/home/bernatj/anaconda2/lib/python2.7/site-packages/sh.py", line 2265, in signal
+    os.kill(self.pid, sig)
+OSError: [Errno 3] No such process
