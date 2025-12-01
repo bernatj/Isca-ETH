@@ -4,8 +4,8 @@ Custom configuration of the [Isca](https://github.com/ExeClim/Isca) framework fo
 
 # Repository Layout
 
-- `exp/`: Python scripts used to configure and run experiments. The configurations cited in the papers live inside `exp/fixed_sst_clim/`; for example, `exp/fixed_sst_clim/fixed_sst_clim_nudging.py` sets up a nudging case. File names do not always perfectly reflect the final tweaks, because the experiments evolved over time.
-- `src/`: The Isca source tree with my modifications. The main change is in `atmosphere.F90`, which adds the zonal-mean stratospheric wind nudging. Additional adjustments appear in the RRTM modules to keep the stratospheric water vapour tracer from overcooling, and the build uses a 3D ERA5 ozone climatology to better capture the polar vortex.
+- `exp/`: Python scripts used to configure and run experiments. The configurations cited in the papers live in `exp/fixed_sst_clim/`; for example, `exp/fixed_sst_clim/fixed_sst_clim_3d_ozone.pyy` sets up a zonal-mean nudging case. File names do not always perfectly reflect the final tweaks, because the experiments evolved. Use them at your own risks
+- `src/`: The Isca source tree with my modifications. The main change is in `atmosphere.F90`, which adds the zonal-mean stratospheric wind nudging. Additional adjustments appear in the RRTM modules to keep the stratospheric water vapour tracer from overcooling, and the build uses a 3D ERA5 ozone climatology to capture the polar vortex better.
 - `input/`: All input datasets referenced by the experiment scripts (land masks, SSTs, ice concentration, ozone, etc.).
 
 ## Citations
